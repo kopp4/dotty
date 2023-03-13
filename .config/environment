@@ -1,0 +1,6 @@
+# /etc/environment 
+# GBM_BACKEND=nvidia-drm
+# __GLX_VENDOR_LIBRARY_NAME=nvidia
+http_proxy=http://127.0.0.1:7890
+https_proxy=http://127.0.0.1:7890
+socks_proxy=https://127.0.0.1:7891
