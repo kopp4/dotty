@@ -1,0 +1,11 @@
+20 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) paplay /home/koppa/Downloads/galaxy-140898.mp3
+24 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) paplay /home/koppa/Downloads/galaxy-140898.mp3
+# 34 23 * * * /sbin/shutdown -P now
+
+
+# todolist and caldav sync 
+20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
+20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"
+
+00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
+00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"

@@ -1,0 +1,19 @@
+[general]
+status_path = "~/.config/vdirsyncer/status/"
+
+[storage my_calendars_remote]
+type = "caldav"
+# url = "calendar.dingtalk.com"
+url = "https://calendar.dingtalk.com/dav"
+username = ""
+password = ""
+
+[storage my_calendars_local]
+type = "filesystem"
+path = "~/.config/vdirsyncer/calendars/"
+fileext = ".ics"
+
+[pair my_calendars]
+a = "my_calendars_local"
+b = "my_calendars_remote"
+collections = ["from a", "from b"]

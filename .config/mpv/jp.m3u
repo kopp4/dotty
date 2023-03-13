@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Japanese" tvg-logo="https://i.imgur.com/9u9TaMA.png" tvg-country="JP" tvg-url="" group-title="",日本news
+http://mov3.co/tvtokyo/
+#EXTINF:0 tvg-country="JP" tvg-logo="" group-title="General",BS TV Tokyo
+http://redlabmcdn.s.llnwi.net/nv02/bs06hd/playlist.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-language="Japanese" tvg-logo="https://i.imgur.com/9VXxnlo.png" tvg-country="JP" tvg-url="" group-title="",ウェザーニュース
+http://movie.mcas.jp/mcas/wn1_2/master.m3u8

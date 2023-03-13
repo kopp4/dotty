@@ -1,0 +1,67 @@
+#!/usr/bin/bash
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=auto'
+    alias dir='dir --color=auto'
+    alias vdir='vdir --color=auto'
+
+    alias grep='grep --color=auto'
+    alias fgrep='fgrep --color=auto'
+    alias egrep='egrep --color=auto'
+fi
+
+# Add an "alert" alias for long running commands.  Use like so:
+#   sleep 10; alert
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+# I forget nmtui a lot instead of networkmgr
+alias wifi='nmtui-connect'
+alias shopt='/usr/bin/shopt'
+
+# some more ls aliases
+alias \
+    ll='ls -alF' \
+    la='ls -A' \
+    l='ls -CF' \
+    v='nvim' \
+# git
+# alias \
+#     gitlog="git log --graph --decorate --color --all --oneline" \
+#     gitlogmain="git log --graph --decorate --color --all --oneline --first-parent main" \
+#     glo="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
+#     dlo="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
+#     glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'" \
+#     gp='git push' \
+#     gss='git status --short' \
+# Pacman - https://wiki.archlinux.org/index.php/Pacman_Tips
+alias \
+    pacupg='sudo pacman -Syu' \
+    pacin='sudo pacman -S' \
+    yain='yay -S' \
+# I forget about how to do stuff aliases
+alias \
+    whathaveibeenupto="git log --author=\"$(git config user.email)\" --pretty=format:\"%C(magenta)%an%Creset %C(green)%<(20)%ar%Creset  %C(blue) %s %Creset\" --no-merges" \
+    filesize="du -sh" \
+    whoisusingports="sudo lsof -i -P -n | grep LISTEN" \
+    whathaveidone="tail -500 /var/log/pacman.log | grep -i 'installed\|removed\|graded' --color=never" \
+
+# alias cdwebdav='cd /var/run/user/1000/gvfs/dav:host=localhost,port=23077,ssl=false'
+
+# alias dot='git --git-dir=${XDG_CONFIG_HOME:-$HOME/.config}/dotfiles/ --work-tree=$HOME'
+alias \
+    nnn='~/bin/nnn -de' \
+    nb='newsboat' \
+    dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
+    pacclean="remorphans && sudo pacman -Sc && trimlogs" \
+
+# literally tldr a man page using curl
+tldr() {
+    curl cheat.sh/"$1" | bat
+}
+
+# Record selected region of the screen in gif codec
+recordgif() {
+    wf-recorder -g "$(slurp)" -F fps=30 -c gif -f ~/Videos/gif/"$1".gif
+}
+

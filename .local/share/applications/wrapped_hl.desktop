@@ -1,0 +1,7 @@
+# Thsi entry is in /usr/share/wayland-sessions but I sorta want back up
+
+[Desktop Entry]
+Name=Shar
+Comment=An wayland compositor
+Exec=/usr/bin/wrappedhl
+Type=Application

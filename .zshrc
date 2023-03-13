@@ -3,8 +3,9 @@
 # znap source zsh-users/zsh-autosuggestions
 # source ~/.local/share/-users/zsh-syntax-highlighting
 
-if [ -f ~/.aliases ]; then
-	source ~/.aliases
+
+if [ -f ~/.config/shell/.aliases ]; then
+	source ~/.config/shell/.aliases
 fi
 
 if [ -f ~/.secrets ]; then
@@ -41,6 +42,9 @@ export all_proxy=socks5://127.0.0.1:7891
 export PATH=$PATH:~/.spicetify
 export PATH=$PATH:~/.local/bin
 export PATH=$PATH:/usr/bin/
+
+# tmux
+export TMUX_CONFIG=~/.config/tmux/.tmux.conf
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'

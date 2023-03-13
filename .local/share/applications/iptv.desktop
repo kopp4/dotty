@@ -1,0 +1,12 @@
+[Desktop Entry]
+Exec=mpv /home/koppa/.config/mpv/jp.m3u
+Name=iptv
+Comment=Watch the iptv
+Version=1.0
+Type=Application
+GenericName=iptv
+Icon=mpv
+Terminal=false
+StartupNotify=true
+Categories=Video;Player;TV;
+StartupWMClass=mpv
