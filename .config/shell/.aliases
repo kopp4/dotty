@@ -26,14 +26,14 @@ alias \
     l='ls -CF' \
     v='nvim' \
 # git
-alias \
-    gitlog="git log --graph --decorate --color --all --oneline" \
-    gitlogmain="git log --graph --decorate --color --all --oneline --first-parent main" \
-    glo="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
-    dlo="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
-    glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'" \
-    gp='git push' \
-    gss='git status --short' \
+# alias \
+#     gitlog="git log --graph --decorate --color --all --oneline" \
+#     gitlogmain="git log --graph --decorate --color --all --oneline --first-parent main" \
+#     glo="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
+#     dlo="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
+#     glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'" \
+#     gp='git push' \
+#     gss='git status --short' \
 # Pacman - https://wiki.archlinux.org/index.php/Pacman_Tips
 alias \
     pacupg='sudo pacman -Syu' \
