@@ -1,0 +1,20 @@
+[Default Applications]
+x-scheme-handler/evernote=evernote-client.desktop
+x-scheme-handler/en=evernote-client.desktop
+application/pdf=sioyek.desktop
+image/jpeg=nsxiv.desktop
+image/png=nsxiv.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=sioyek.desktop
+text/x-python3=nvim.desktop
+text/plain=nvim.desktop
+application/x-shellscript=nvim.desktop
+
+[Added Associations]
+application/pdf=sioyek.desktop;
+text/x-lua=nvim.desktop;
+image/jpeg=nsxiv.desktop;
+image/png=nsxiv.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=sioyek.desktop;
+text/x-python3=nvim.desktop;
+text/plain=nvim.desktop;
+application/x-shellscript=nvim.desktop;

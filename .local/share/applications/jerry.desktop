@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=jerry -c
+Name=jerry
+GenericName=JERRY
+Comment=Watch the anime
+Icon=mpv
+Terminal=false
+StartupNotify=true
+Categories=Video;Player;TV;
