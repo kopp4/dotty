@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Type=Application
-Exec=jerry -c
+Exec=/home/koppa/.local/bin/jerry -c
 Name=jerry
 GenericName=JERRY
 Comment=Watch the anime
