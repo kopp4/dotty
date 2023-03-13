@@ -12,9 +12,9 @@
 [alias]
 #     gitlog="git log --graph --decorate --color --all --oneline" \
 #     gitlogmain="git log --graph --decorate --color --all --oneline --first-parent main" \
-#     glo="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat" \
 #     glol="git log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset'" \
 
+    glo  = log --graph --pretty='%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset' --stat
 	co   = checkout
 	ci   = commit
 	st   = status
