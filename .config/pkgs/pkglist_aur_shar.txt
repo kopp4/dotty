@@ -44,6 +44,7 @@ sway-audio-idle-inhibit-git
 swaylock-effects-git
 swaylockd
 swww-git
+tmux-plugin-manager
 todoist-git
 toilet
 translate-shell-git
