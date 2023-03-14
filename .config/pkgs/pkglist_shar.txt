@@ -100,7 +100,6 @@ swappy
 swaybg
 swayidle
 telegram-desktop
-thunderbird
 tmux
 traceroute
 ttf-daddytime-mono-nerd
