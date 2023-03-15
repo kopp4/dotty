@@ -3,6 +3,7 @@ adobe-source-han-sans-jp-fonts
 alsa-utils
 amd-ucode
 asciidoctor
+at
 atomicparsley
 base
 base-devel
@@ -27,6 +28,7 @@ dmenu
 docker
 dunst
 efibootmgr
+espeak-ng
 firefox
 firewalld
 foliate
@@ -100,6 +102,7 @@ swappy
 swaybg
 swayidle
 telegram-desktop
+tig
 tmux
 traceroute
 ttf-daddytime-mono-nerd
