@@ -41,9 +41,11 @@ socat-git
 spicetify-cli
 spotify
 sway-audio-idle-inhibit-git
-swaylock-effects-git
+swaylock-git
 swaylockd
 swww-git
+timetrace
+tmux-plugin-manager
 todoist-git
 toilet
 translate-shell-git
