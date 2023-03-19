@@ -11,6 +11,10 @@ if [ -f ~/.secrets ]; then
     source ~/.secrets
 fi
 
+if [ -f ~/.config/shell/countdown ]; then
+    source ~/.config/shell/countdown
+fi
+
 HIST_STAMPS="yyyy/mm/dd"
 
 # export MANPATH="/usr/local/man:$MANPATH"

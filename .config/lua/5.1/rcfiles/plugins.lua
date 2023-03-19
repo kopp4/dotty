@@ -1,6 +1,27 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
+
+    use 'tpope/vim-obsession'
+
+    use 'wakatime/vim-wakatime'
+
+    use 'elkowar/yuck.vim'
+
+    use 'gpanders/nvim-parinfer'
+
+    use 'samirettali/shebang.nvim'
+
+    use { "catppuccin/nvim", as = "catppuccin" }
+
+    -- use {
+  -- "startup-nvim/startup.nvim",
+  -- requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
+  -- config = function()
+    -- require"startup".setup()
+  -- end
+-- }
+
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
     -- Themes
@@ -21,7 +42,13 @@ return require('packer').startup(function(use)
     use 'szw/vim-maximizer'
 
     -- LSP
-    use 'neovim/nvim-lspconfig'
+
+    use {
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+}
+
     use 'nvim-lua/lsp-status.nvim'
     use 'mfussenegger/nvim-jdtls'
 

@@ -3,6 +3,9 @@
 [archwiki](https://wiki.archlinux.org/title/Dotfiles#Tracking_dotfiles_directly_with_Git)
 
 
+# spicetify
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
 
 * Installation 
 ```shell
