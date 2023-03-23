@@ -15,6 +15,7 @@ emote
 eww-wayland-git
 geticons
 google-chrome
+google-drive-ocamlfuse-opam
 hyprland-nvidia-git
 hyprpicker-git
 light-git
@@ -36,12 +37,13 @@ otf-xits
 package-query
 pokemon-colorscripts-git
 rofi-git
+rustdesk-bin
 sioyek
 socat-git
+spamton-shimeji
 spicetify-cli
 spotify
 sway-audio-idle-inhibit-git
-swaylock-git
 swaylockd
 swww-git
 timetrace
@@ -51,6 +53,8 @@ toilet
 translate-shell-git
 ttf-cm-unicode
 ttf-mac-fonts
+typst-bin
+waybar-hyprland-git
 webcord
 wl-clip-persist-git
 wl-clipboard-git

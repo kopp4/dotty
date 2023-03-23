@@ -3,6 +3,8 @@
 https://www.titech.ac.jp/prospective-students/news/rss.xml
 # 新着イベント情報
 https://www.titech.ac.jp/prospective-students/news/event/rss.xml
+# 社会情報学専攻
+https://www.soc.i.kyoto-u.ac.jp/news/feed
 # 日テレ
 https://news.ntv.co.jp/rss/index.rdf
 # unixporn
@@ -18,7 +20,5 @@ https://artixlinux.org/feed.php "tech"
 https://www.archlinux.org/feeds/news/ "tech"
 
 https://tatsumoto-ren.github.io/blog/feed.rss
-# 社会情報学専攻
-https://www.soc.i.kyoto-u.ac.jp/news/feed
 # Hacker news
 https://news.ycombinator.com/rss

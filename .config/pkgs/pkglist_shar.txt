@@ -44,6 +44,7 @@ inetutils
 intel-ucode
 iwd
 jq
+jupyterlab
 khal
 kitty
 lazygit
@@ -70,6 +71,7 @@ noto-fonts-emoji
 npm
 ntfs-3g
 nvidia-dkms
+obs-studio
 obsidian
 openresolv
 openssh
@@ -97,10 +99,12 @@ scrapy
 shfmt
 slurp
 sof-firmware
+stardict
 starship
 swappy
 swaybg
 swayidle
+swaylock
 telegram-desktop
 tig
 tmux
@@ -118,7 +122,6 @@ viu
 vscode-css-languageserver
 vscode-html-languageserver
 vsftpd
-waybar
 wf-recorder
 wget
 wofi

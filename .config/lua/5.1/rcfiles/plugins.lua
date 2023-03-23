@@ -2,6 +2,8 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 
+    -- use 'github/copilot.vim'
+
     use 'tpope/vim-obsession'
 
     use 'wakatime/vim-wakatime'

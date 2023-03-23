@@ -38,3 +38,5 @@ function mp4towebp() {
 #
 # if [ -f '~/google-cloud-sdk/completion.bash.inc' ]; then . '~/google-cloud-sdk/completion.bash.inc'; fi
 # . "$HOME/.cargo/env"
+export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
+
