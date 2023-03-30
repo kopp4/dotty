@@ -29,6 +29,10 @@ docker
 dunst
 efibootmgr
 espeak-ng
+fcitx5-chinese-addons
+fcitx5-configtool
+fcitx5-mozc
+fcitx5-nord
 firefox
 firewalld
 foliate
