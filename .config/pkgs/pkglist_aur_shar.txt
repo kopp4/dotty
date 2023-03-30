@@ -13,9 +13,12 @@ dingtalk-bin
 dpkg-git
 emote
 eww-wayland-git
+fcitx5-skin-fluentdark-git
 geticons
+goldendict-webengine-git
 google-chrome
 google-drive-ocamlfuse-opam
+hunspell-ja-git
 hyprland-nvidia-git
 hyprpicker-git
 light-git
@@ -36,9 +39,11 @@ orchis-theme
 otf-xits
 package-query
 pokemon-colorscripts-git
+protontricks
 rofi-git
 rustdesk-bin
 sioyek
+slack-desktop-wayland
 socat-git
 spamton-shimeji
 spicetify-cli

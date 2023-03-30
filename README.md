@@ -16,7 +16,6 @@ rm -rf -- ~/dotty ~/.git
 ```
 
 # TODOs
-- [ ] vdirsyncer and git; How do I backup ?
 - [ ] Manual changes of nvim and so many DO NOT forget plz
 - [ ] move nvim away from /usr/local/share/lua/5.1
 - [ ] can I back up my systemctl too ?
@@ -24,11 +23,10 @@ rm -rf -- ~/dotty ~/.git
 
 
 
-* /etc/profile 
+* Fcitx5 input method
 ```
-# fcitx5
+# /etc/profile 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-
 ```
