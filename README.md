@@ -20,6 +20,7 @@ rm -rf -- ~/dotty ~/.git
 - [ ] move nvim away from /usr/local/share/lua/5.1
 - [ ] can I back up my systemctl too ?
 - [ ] man gittutorial
+- [ ] ssh gittutorial
 
 
 
