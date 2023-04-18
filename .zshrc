@@ -112,9 +112,9 @@ export NNN_OPTS="deH"
 # export NNN_OPTS="H"
 
 # Tmux on startup
-# if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
-#     tmux attach -t default || tmux new -s default
-# fi
+if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
 
 # I'll have lua_path here bcz all I'm using lua is neovim conf :p
 export LUA_PATH="$HOME/.config/lua/5.1/?.lua"

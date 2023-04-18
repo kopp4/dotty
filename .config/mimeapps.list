@@ -7,7 +7,6 @@ video/vnd.rn-realvideo=mpv.desktop
 video/vnd.mpegurl=mpv.desktop
 video/mp2t=mpv.desktop
 video/x-flv=mpv.desktop
-# inode/directory=pcmanfm.desktop
 inode/directory=nautilus.desktop
 image/png=nsxiv.desktop
 image/jpeg=nsxiv.desktop
@@ -41,7 +40,6 @@ audio/x-ms-asx=mpv.desktop
 audio/x-tta=mpv.desktop
 audio/x-wav=mpv.desktop
 audio/x-wavpack=mpv.desktop
-
 text/x-c++src=neovide.desktop
 text/x-c++hdr=neovide.desktop
 text/tcl=neovide.desktop
@@ -59,6 +57,8 @@ text/vbscript=neovide.desktop
 text/x-tex=neovide.desktop
 text/x-java=neovide.desktop
 text/x-shellscript=neovide.desktop
-
-application/pdf=zathura.desktop
+application/pdf=sioyek.desktop
 application/epub+zip=epy.desktop
+
+[Added Associations]
+application/pdf=sioyek.desktop;
