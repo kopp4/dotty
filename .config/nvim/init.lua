@@ -57,8 +57,6 @@ vim.cmd([[
         autocmd BufWritePre *.ts call DoFormat()
         autocmd BufWritePre *.clj call DoFormat()
         autocmd BufWritePre *.html Neoformat
-        autocmd BufWritePre *.sh call DoFormat()
-        autocmd BufWritePre *.py call DoFormat()
     endif
 
 
