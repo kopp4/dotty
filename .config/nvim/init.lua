@@ -52,11 +52,11 @@ vim.cmd([[
 
     if useformatting
         "autocmd BufWritePre *.java  call DoFormat()
-        autocmd BufWritePre *.md call DoFormat()
-        autocmd BufWritePre *.js call DoFormat()
-        autocmd BufWritePre *.ts call DoFormat()
-        autocmd BufWritePre *.clj call DoFormat()
-        autocmd BufWritePre *.html Neoformat
+        "autocmd BufWritePre *.md call DoFormat()
+        "autocmd BufWritePre *.js call DoFormat()
+        "autocmd BufWritePre *.ts call DoFormat()
+        "autocmd BufWritePre *.clj call DoFormat()
+        "autocmd BufWritePre *.html Neoformat
     endif
 
 

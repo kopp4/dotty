@@ -2,7 +2,12 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 
-    -- use 'github/copilot.vim'
+ -- install without yarn or npm
+ --
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
 
     use 'tpope/vim-obsession'
 

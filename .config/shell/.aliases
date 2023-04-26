@@ -55,10 +55,6 @@ alias \
     dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
     pacclean="remorphans && sudo pacman -Sc && trimlogs" \
 
-# literally tldr a man page using curl
-tldr() {
-    curl cheat.sh/"$1" | bat
-}
 
 # Record selected region of the screen in gif codec
 recordgif() {
