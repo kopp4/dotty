@@ -52,13 +52,16 @@ text/x-pascal=neovide.desktop
 text/tab-separated-values=neovide.desktop
 text/spreadsheet=neovide.desktop
 text/plain=neovide.desktop
-text/html=neovide.desktop
+text/html=nvim.desktop
 text/vbscript=neovide.desktop
 text/x-tex=neovide.desktop
 text/x-java=neovide.desktop
 text/x-shellscript=neovide.desktop
 application/pdf=sioyek.desktop
 application/epub+zip=epy.desktop
+image/gif=mpv.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;
+text/html=nvim.desktop;
+image/gif=nsxiv.desktop;mpv.desktop;
