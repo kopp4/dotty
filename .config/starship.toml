@@ -63,7 +63,3 @@ format = '$symbol $branch'
 # time_format = "%R" # Hour:Minute Format
 # style = "bg:#1d2230"
 # format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
-[custom.timetrace]
-command = """ timetrace status --format "Project: {project} - Worked today: {trackedTimeToday}" """
-when = "timetrace status"
-shell = "zsh"

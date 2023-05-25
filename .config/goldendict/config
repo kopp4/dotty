@@ -2,9 +2,10 @@
  <paths>
   <path recursive="0">/usr/share/stardict/dic</path>
   <path recursive="1">/Windows/Software/dic/eudic</path>
+  <path recursive="1">/home/koppa/Documents/Dict</path>
  </paths>
  <sounddirs>
-  <sounddir name="DicArchive" icon="">/Windows/Software/dic/eudic/DicArchive</sounddir>
+  <sounddir icon="" name="DicArchive">/Windows/Software/dic/eudic/DicArchive</sounddir>
  </sounddirs>
  <dictionaryOrder name="" id="0">
   <dictionary name="English (US) Morphology">bb46cb51d4db42d2212d663570fbec45</dictionary>
@@ -76,7 +77,7 @@
   <mutedDictionaries/>
  </inactiveDictionaries>
  <groups nextId="3">
-  <group name="日本語" icon="jp.png" id="1">
+  <group icon="jp.png" name="日本語" id="1">
    <dictionary name="Japanese (JP) Morphology">a4b0c0b061cead2d9377d20dbf976b42</dictionary>
    <dictionary name="(NHK) 日本語発音アクセント辞典">84c02e3df4aeccef03e4afc2afb87dab</dictionary>
    <dictionary name="（小学館）日本大百科全書 [2022.09]">8e7243dd75fd0ef3263be106d15b9dd7</dictionary>
@@ -100,7 +101,7 @@
    <dictionary name="(Weblio) 対義語・反対語辞書">94c9ec505a76eb2c36266fa132d5668e</dictionary>
    <mutedDictionaries/>
   </group>
-  <group name="English" icon="en.png" id="2">
+  <group icon="en.png" name="English" id="2">
    <dictionary name="English (US) Morphology">bb46cb51d4db42d2212d663570fbec45</dictionary>
    <dictionary name="ODE Living Online">ef7c22f3cb9b45beb57e9e4134460a50</dictionary>
    <dictionary name="Collins Cobuild Audio">26d8483215e20f107b6a8bb675fa6140</dictionary>
@@ -155,33 +156,39 @@
   <languageCodes></languageCodes>
  </forvo>
  <mediawikis>
-  <mediawiki name="English Wikipedia" url="https://en.wikipedia.org/w" enabled="0" icon="" id="ae6f89aac7151829681b85f035d54e48"/>
-  <mediawiki name="English Wiktionary" url="https://en.wiktionary.org/w" enabled="0" icon="" id="affcf9678e7bfe701c9b071f97eccba3"/>
-  <mediawiki name="Russian Wikipedia" url="https://ru.wikipedia.org/w" enabled="0" icon="" id="8e0c1c2b6821dab8bdba8eb869ca7176"/>
-  <mediawiki name="Russian Wiktionary" url="https://ru.wiktionary.org/w" enabled="0" icon="" id="b09947600ae3902654f8ad4567ae8567"/>
-  <mediawiki name="German Wikipedia" url="https://de.wikipedia.org/w" enabled="0" icon="" id="a8a66331a1242ca2aeb0b4aed361c41d"/>
-  <mediawiki name="German Wiktionary" url="https://de.wiktionary.org/w" enabled="0" icon="" id="21c64bca5ec10ba17ff19f3066bc962a"/>
-  <mediawiki name="Portuguese Wikipedia" url="https://pt.wikipedia.org/w" enabled="0" icon="" id="96957cb2ad73a20c7a1d561fc83c253a"/>
-  <mediawiki name="Portuguese Wiktionary" url="https://pt.wiktionary.org/w" enabled="0" icon="" id="ed4c3929196afdd93cc08b9a903aad6a"/>
-  <mediawiki name="Greek Wikipedia" url="https://el.wikipedia.org/w" enabled="0" icon="" id="f3b4ec8531e52ddf5b10d21e4577a7a2"/>
-  <mediawiki name="Greek Wiktionary" url="https://el.wiktionary.org/w" enabled="0" icon="" id="5d45232075d06e002dea72fe3e137da1"/>
+  <mediawiki url="https://en.wikipedia.org/w" enabled="0" icon="" name="English Wikipedia" id="ae6f89aac7151829681b85f035d54e48"/>
+  <mediawiki url="https://en.wiktionary.org/w" enabled="0" icon="" name="English Wiktionary" id="affcf9678e7bfe701c9b071f97eccba3"/>
+  <mediawiki url="https://ru.wikipedia.org/w" enabled="0" icon="" name="Russian Wikipedia" id="8e0c1c2b6821dab8bdba8eb869ca7176"/>
+  <mediawiki url="https://ru.wiktionary.org/w" enabled="0" icon="" name="Russian Wiktionary" id="b09947600ae3902654f8ad4567ae8567"/>
+  <mediawiki url="https://de.wikipedia.org/w" enabled="0" icon="" name="German Wikipedia" id="a8a66331a1242ca2aeb0b4aed361c41d"/>
+  <mediawiki url="https://de.wiktionary.org/w" enabled="0" icon="" name="German Wiktionary" id="21c64bca5ec10ba17ff19f3066bc962a"/>
+  <mediawiki url="https://pt.wikipedia.org/w" enabled="0" icon="" name="Portuguese Wikipedia" id="96957cb2ad73a20c7a1d561fc83c253a"/>
+  <mediawiki url="https://pt.wiktionary.org/w" enabled="0" icon="" name="Portuguese Wiktionary" id="ed4c3929196afdd93cc08b9a903aad6a"/>
+  <mediawiki url="https://el.wikipedia.org/w" enabled="0" icon="" name="Greek Wikipedia" id="f3b4ec8531e52ddf5b10d21e4577a7a2"/>
+  <mediawiki url="https://el.wiktionary.org/w" enabled="0" icon="" name="Greek Wiktionary" id="5d45232075d06e002dea72fe3e137da1"/>
  </mediawikis>
  <websites>
-  <website inside_iframe="1" name="Google En-En (Oxford)" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en" enabled="0" icon="" id="b88cb2898e634c6638df618528284c2d"/>
-  <website inside_iframe="1" name="Urban Dictionary" url="https://www.urbandictionary.com/define.php?term=%GDWORD%" enabled="0" icon="" id="f376365a0de651fd7505e7e5e683aa45"/>
-  <website inside_iframe="1" name="Multitran (En)" url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%" enabled="0" icon="" id="324ca0306187df7511b26d3847f4b07c"/>
-  <website inside_iframe="1" name="Lingvo (En-Ru)" url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%" enabled="0" icon="" id="924db471b105299c82892067c0f10787"/>
-  <website inside_iframe="1" name="Michaelis (Pt-En)" url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%" enabled="0" icon="" id="087a6d65615fb047f4c80eef0a9465db"/>
+  <website url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en" enabled="0" inside_iframe="1" icon="" name="Google En-En (Oxford)" id="b88cb2898e634c6638df618528284c2d"/>
+  <website url="https://www.urbandictionary.com/define.php?term=%GDWORD%" enabled="0" inside_iframe="1" icon="" name="Urban Dictionary" id="f376365a0de651fd7505e7e5e683aa45"/>
+  <website url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%" enabled="0" inside_iframe="1" icon="" name="Multitran (En)" id="324ca0306187df7511b26d3847f4b07c"/>
+  <website url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%" enabled="0" inside_iframe="1" icon="" name="Lingvo (En-Ru)" id="924db471b105299c82892067c0f10787"/>
+  <website url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%" enabled="0" inside_iframe="1" icon="" name="Michaelis (Pt-En)" id="087a6d65615fb047f4c80eef0a9465db"/>
  </websites>
  <dictservers/>
  <programs>
-  <program type="0" name="Festival" enabled="0" icon="" id="428b4c2b905ef568a43d9a16f59559b0" commandLine="festival --tts"/>
-  <program type="0" name="Espeak" enabled="0" icon="" id="2cf8b3a60f27e1ac812de0b57c148340" commandLine="espeak %GDWORD%"/>
-  <program type="2" name="Manpages" enabled="0" icon="" id="4f898f7582596cea518c6b0bfdceb8b3" commandLine="man -a --html=/bin/cat %GDWORD%"/>
+  <program enabled="0" type="0" commandLine="festival --tts" icon="" name="Festival" id="428b4c2b905ef568a43d9a16f59559b0"/>
+  <program enabled="0" type="0" commandLine="espeak %GDWORD%" icon="" name="Espeak" id="2cf8b3a60f27e1ac812de0b57c148340"/>
+  <program enabled="0" type="2" commandLine="man -a --html=/bin/cat %GDWORD%" icon="" name="Manpages" id="4f898f7582596cea518c6b0bfdceb8b3"/>
  </programs>
  <voiceEngines/>
  <mutedDictionaries/>
- <popupMutedDictionaries/>
+ <popupMutedDictionaries>
+  <mutedDictionary>c1a79b00f618d2d9f5ab54208cf1bc8b</mutedDictionary>
+  <mutedDictionary>7b5cd3f4a7aa78b1c89ef53c7299a47a</mutedDictionary>
+  <mutedDictionary>9a89afb0537fc92c4d082932e3ddd0ea</mutedDictionary>
+  <mutedDictionary>1f457df54a43e09936e7e1ca587b53d5</mutedDictionary>
+  <mutedDictionary>8f981e3f2e79998683ff96edb534e799</mutedDictionary>
+ </popupMutedDictionaries>
  <preferences>
   <interfaceLanguage></interfaceLanguage>
   <webFontFamily>FantasqueSansMono Nerd Font Mono</webFontFamily>
@@ -280,19 +287,19 @@
    <maxDictionarySize>0</maxDictionarySize>
   </fullTextSearch>
  </preferences>
- <lastMainGroupId>4294967294</lastMainGroupId>
+ <lastMainGroupId>1</lastMainGroupId>
  <lastPopupGroupId>4294967294</lastPopupGroupId>
  <popupWindowState>AAAA/wAAAAH9AAAAAAAAA3EAAAH6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
- <popupWindowGeometry>AdnQywADAAAAAAFmAAAAvAAABP4AAAK1AAABZgAAALwAAAT+AAACtQAAAAAAAAAACE8AAAFmAAAAvAAABP4AAAK1</popupWindowGeometry>
+ <popupWindowGeometry>AdnQywADAAAAAAU+AAACaQAACNYAAARiAAAFPgAAAmkAAAjWAAAEYgAAAAAAAAAACf8AAAU+AAACaQAACNYAAARi</popupWindowGeometry>
  <pinPopupWindow>0</pinPopupWindow>
  <popupWindowAlwaysOnTop>1</popupWindowAlwaysOnTop>
- <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAADMAAAFKvwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUCAAAABAAAAAAAAATzAAAErwAAAAEAAAC+AAAEOfwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAADsAAAFlAAAAYQD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAaYAAAFjAAAAYQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAADDwAAAWUAAABhAP///wAAA1kAAAQ5AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgAAAAF9/////wAAAAAAAAAA</mainWindowState>
- <mainWindowGeometry>AdnQywADAAAAAAAEAAAABAAABCAAAAR3AAAABAAAAAQAAAQgAAAEdwAAAAAAAAAACE8AAAAEAAAABAAABCAAAAR3</mainWindowGeometry>
+ <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAADMAAAFKvwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUCAAAABAAAAAAAAATzAAAErwAAAAEAAAC6AAAFKvwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAADsAAAGwAAAAYQD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAfEAAAG+AAAAYQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAADtQAAAbAAAABhAP///wAABDMAAAUqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgAAAAF9/////wAAAAAAAAAA</mainWindowState>
+ <mainWindowGeometry>AdnQywADAAAAAAAEAAAABAAABPYAAAVoAAAABAAAAAQAAAT2AAAFaAAAAAAAAAAACf8AAAAEAAAABAAABPYAAAVo</mainWindowGeometry>
  <helpWindowGeometry>AdnQywADAAAAAAFLAAAB3wAAA6IAAAOgAAABSwAAAd8AAAOiAAADoAAAAAAAAAAACf8AAAFLAAAB3wAAA6IAAAOg</helpWindowGeometry>
  <helpSplitterState>AAAA/wAAAAEAAAACAAABBAAABAAB/////wEAAAABAA==</helpSplitterState>
  <dictInfoGeometry>AdnQywADAAAAAAZzAAABpQAACMoAAAM0AAAGcwAAAaUAAAjKAAADNAAAAAAAAAAACf8AAAZzAAABpQAACMoAAAM0</dictInfoGeometry>
  <inspectorGeometry></inspectorGeometry>
- <dictionariesDialogGeometry>AdnQywADAAAAAAHXAAABhAAABbkAAAU/AAAB1wAAAYQAAAW5AAAFPwAAAAAAAAAACf8AAAHXAAABhAAABbkAAAU/</dictionariesDialogGeometry>
+ <dictionariesDialogGeometry>AdnQywADAAAAAAUnAAABhwAACQkAAAVCAAAFJwAAAYcAAAkJAAAFQgAAAAAAAAAACf8AAAUnAAABhwAACQkAAAVC</dictionariesDialogGeometry>
  <timeForNewReleaseCheck>2023-04-01T20:53:17</timeForNewReleaseCheck>
  <skippedRelease></skippedRelease>
  <showingDictBarNames>0</showingDictBarNames>
@@ -303,10 +310,10 @@
  <maxHeadwordSize>256</maxHeadwordSize>
  <maxHeadwordsToExpand>0</maxHeadwordsToExpand>
  <headwordsDialog>
-  <searchMode>1</searchMode>
+  <searchMode>0</searchMode>
   <matchCase>0</matchCase>
   <autoApply>0</autoApply>
   <headwordsExportPath>/home/koppa</headwordsExportPath>
-  <headwordsDialogGeometry>AdnQywADAAAAAAI6AAAB5wAABAMAAAQMAAACOgAAAecAAAQDAAAEDAAAAAAAAAAACE8AAAI6AAAB5wAABAMAAAQM</headwordsDialogGeometry>
+  <headwordsDialogGeometry>AdnQywADAAAAAAWWAAACDgAAB18AAAQzAAAFlgAAAg4AAAdfAAAEMwAAAAAAAAAACf8AAAWWAAACDgAAB18AAAQz</headwordsDialogGeometry>
  </headwordsDialog>
 </config>
