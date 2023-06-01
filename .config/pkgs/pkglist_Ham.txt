@@ -18,6 +18,8 @@ bluez-tools
 bluez-utils
 btop
 clang
+cliphist
+code
 cronie
 cxxopts
 debugedit
@@ -92,6 +94,7 @@ openresolv
 openssh
 otf-ipafont
 pacman
+pacman-contrib
 pamixer
 papirus-icon-theme
 patch
@@ -130,10 +133,13 @@ ttf-dejavu
 ttf-dejavu-nerd
 ttf-fantasque-nerd
 ttf-nerd-fonts-symbols-common
+typescript-language-server
 unrar
 unzip
 vi
 vim
+virtualbox
+virtualbox-host-dkms
 viu
 vscode-css-languageserver
 vsftpd
@@ -193,4 +199,5 @@ zathura
 zathura-cb
 zathura-pdf-mupdf
 zenity
+zip
 zsh

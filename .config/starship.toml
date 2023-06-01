@@ -32,7 +32,7 @@
 symbol = ""
 # style = "bg:#394260"
 # format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
-format = '$symbol $branch'
+format = '$symbol $branch '
 
 # [git_status]
 # style = "bg:#394260"

@@ -54,6 +54,7 @@ alias \
     nb='newsboat' \
     dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
     pacclean="remorphans && sudo pacman -Sc && trimlogs" \
+    lgit="lazygit" \
 
 
 # Record selected region of the screen in gif codec

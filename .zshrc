@@ -122,4 +122,3 @@ export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
 # export CARGO_HOME="/var/cache/rustup"
 #
 # Man page colors highlight 
-export PAGER="most"
