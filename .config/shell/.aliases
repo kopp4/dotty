@@ -39,6 +39,7 @@ alias \
     pacupg='sudo pacman -Syu' \
     pacin='sudo pacman -S' \
     yain='yay -S' \
+    yarem='yay -Rns' \
 # I forget about how to do stuff aliases
 alias \
     whathaveibeenupto="git log --author=\"$(git config user.email)\" --pretty=format:\"%C(magenta)%an%Creset %C(green)%<(20)%ar%Creset  %C(blue) %s %Creset\" --no-merges" \

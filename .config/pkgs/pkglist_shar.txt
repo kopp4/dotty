@@ -2,6 +2,8 @@ acpi
 adobe-source-han-sans-jp-fonts
 alsa-utils
 amd-ucode
+ant
+aria2
 asciidoctor
 at
 atomicparsley
@@ -18,6 +20,7 @@ bluez-utils
 btop
 clang
 clash
+cliphist
 cronie
 cxxopts
 dhcpcd
@@ -28,6 +31,7 @@ dmenu
 docker
 dunst
 efibootmgr
+enca
 espeak-ng
 fcitx5-chinese-addons
 fcitx5-configtool
@@ -42,6 +46,7 @@ gifsicle
 git
 glfw-wayland
 gnu-netcat
+go
 grim
 grub
 hunspell-en_us
@@ -54,8 +59,10 @@ khal
 kitty
 lazygit
 lib32-nvidia-utils
+lib32-ocl-icd
 libertinus-font
 libheif
+libva-mesa-driver
 linux-firmware
 linux-lts
 linux-lts-headers
@@ -67,7 +74,6 @@ mpd
 nautilus
 ncdu
 neomutt
-neovim
 networkmanager
 newsboat
 nm-connection-editor
@@ -76,6 +82,7 @@ nodejs
 noto-fonts-cjk
 noto-fonts-emoji
 npm
+nsxiv
 ntfs-3g
 nvidia-dkms
 obs-studio
@@ -93,6 +100,7 @@ pulseaudio-alsa
 pyright
 python-pip
 python-pyalsa
+python-setuptools-scm
 qbittorrent
 qt5-graphicaleffects
 qt5-wayland
@@ -100,6 +108,7 @@ qt5ct
 rclone
 ripgrep
 rofimoji
+rust-analyzer
 rustup
 sassc
 scrapy
@@ -110,10 +119,10 @@ starship
 steam
 swappy
 swaybg
-swayidle
 swaylock
 telegram-desktop
 tig
+tldr
 tmux
 traceroute
 ttf-daddytime-mono-nerd
@@ -121,6 +130,8 @@ ttf-dejavu
 ttf-dejavu-nerd
 ttf-fantasque-nerd
 ttf-nerd-fonts-symbols-common
+typescript-language-server
+unrar
 unzip
 vdirsyncer
 vi
@@ -131,6 +142,7 @@ vscode-html-languageserver
 vsftpd
 wf-recorder
 wget
+whois
 wofi
 wqy-microhei
 xclip

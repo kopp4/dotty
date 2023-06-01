@@ -2,6 +2,9 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 require 'lspconfig'.clangd.setup{}
 require 'lspconfig'.pyright.setup{}
+require 'lspconfig'.jdtls.setup{}
+require 'lspconfig'.rust_analyzer.setup{}
+-- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
 
 require 'rcfiles.plugins'
 require 'rcfiles.plugins.compe'
