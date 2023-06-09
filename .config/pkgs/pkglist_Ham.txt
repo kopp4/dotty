@@ -31,7 +31,6 @@ dmenu
 docker
 dunst
 efibootmgr
-emacs-nox
 fakeroot
 fcitx5-chinese-addons
 fcitx5-configtool

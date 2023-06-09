@@ -20,6 +20,7 @@ hyprland-git
 hyprpicker-git
 libime-git
 light-git
+lobster-git
 mariadb-jdbc
 mpv-git
 ncmpcpp-git
