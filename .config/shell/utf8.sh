@@ -22,6 +22,9 @@ EOF
     fi
 
     iconv -f "$encoding" -t UTF-8 "$file" >"${file%.*}.utf8.$extension"
+
+    mv "${file%.*}.utf8.$extension" "$file"
+
     echo "File is converted into UTF-8 encoding"
 
 }
