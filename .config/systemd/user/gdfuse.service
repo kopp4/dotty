@@ -1,0 +1,12 @@
+# ~/.config/systemd/user/gdfuse.service
+[Unit]
+Description=google-drive-ocamlfuse - mount Google Drive as a filesystem
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/google-drive-ocamlfuse -f /home/koppa/Documents/GoogleDrive
+ExecStop=/usr/bin/fusermount -u /home/koppa/Documents/GoogleDrive
+
+[Install]
+WantedBy=multi-user.target

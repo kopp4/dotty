@@ -39,6 +39,7 @@ alias \
     pacupg='sudo pacman -Syu' \
     pacin='sudo pacman -S' \
     yain='yay -S' \
+    yarem='yay -Rns' \
 # I forget about how to do stuff aliases
 alias \
     whathaveibeenupto="git log --author=\"$(git config user.email)\" --pretty=format:\"%C(magenta)%an%Creset %C(green)%<(20)%ar%Creset  %C(blue) %s %Creset\" --no-merges" \
@@ -54,11 +55,8 @@ alias \
     nb='newsboat' \
     dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
     pacclean="remorphans && sudo pacman -Sc && trimlogs" \
+    lgit="lazygit" \
 
-# literally tldr a man page using curl
-tldr() {
-    curl cheat.sh/"$1" | bat
-}
 
 # Record selected region of the screen in gif codec
 recordgif() {

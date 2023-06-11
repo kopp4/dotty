@@ -1,10 +1,15 @@
-http://rss.cnn.com/rss/cnn_topstories.rss
-http://newsrss.bbc.co.uk/rss/newsonline_world_edition/front_page/rss.xml
-
+# BBC
+https://podcasts.files.bbci.co.uk/p02pc9tn.rss
 # 新着入試情報
 https://www.titech.ac.jp/prospective-students/news/rss.xml
 # 新着イベント情報
 https://www.titech.ac.jp/prospective-students/news/event/rss.xml
+# 社会情報学専攻
+https://www.soc.i.kyoto-u.ac.jp/news/feed
+# 試験関係wiki
+https://w.atwiki.jp/h26kut20/rss10.xml
+# Ukyoto English words
+http://www.kenkyusha.co.jp/uploads/09_kyodai_podcast/rss.xml
 # 日テレ
 https://news.ntv.co.jp/rss/index.rdf
 # unixporn
@@ -18,3 +23,8 @@ https://landchad.net/rss.xml
 https://based.cooking/index.xml
 https://artixlinux.org/feed.php "tech"
 https://www.archlinux.org/feeds/news/ "tech"
+
+https://tatsumoto-ren.github.io/blog/feed.rss
+# Hacker news
+https://news.ycombinator.com/rss
+

@@ -2,6 +2,9 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 require 'lspconfig'.clangd.setup{}
 require 'lspconfig'.pyright.setup{}
+require 'lspconfig'.jdtls.setup{}
+require 'lspconfig'.rust_analyzer.setup{}
+-- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
 
 require 'rcfiles.plugins'
 require 'rcfiles.plugins.compe'
@@ -52,13 +55,11 @@ vim.cmd([[
 
     if useformatting
         "autocmd BufWritePre *.java  call DoFormat()
-        autocmd BufWritePre *.md call DoFormat()
-        autocmd BufWritePre *.js call DoFormat()
-        autocmd BufWritePre *.ts call DoFormat()
-        autocmd BufWritePre *.clj call DoFormat()
-        autocmd BufWritePre *.html Neoformat
-        autocmd BufWritePre *.sh call DoFormat()
-        autocmd BufWritePre *.py call DoFormat()
+        "autocmd BufWritePre *.md call DoFormat()
+        "autocmd BufWritePre *.js call DoFormat()
+        "autocmd BufWritePre *.ts call DoFormat()
+        "autocmd BufWritePre *.clj call DoFormat()
+        "autocmd BufWritePre *.html Neoformat
     endif
 
 

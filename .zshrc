@@ -3,13 +3,16 @@
 # znap source zsh-users/zsh-autosuggestions
 # source ~/.local/share/-users/zsh-syntax-highlighting
 
-
 if [ -f ~/.config/shell/.aliases ]; then
-	source ~/.config/shell/.aliases
+    source ~/.config/shell/.aliases
 fi
 
 if [ -f ~/.secrets ]; then
-	source ~/.secrets
+    source ~/.secrets
+fi
+
+if [ -f ~/.config/shell/countdown ]; then
+    source ~/.config/shell/countdown
 fi
 
 HIST_STAMPS="yyyy/mm/dd"
@@ -59,8 +62,8 @@ pokemon-colorscripts -r
 # calendar
 khal calendar
 # TTY
-if [ `tput colors` != "256" ]; then
-  exec bash -l;
+if [ $(tput colors) != "256" ]; then
+    exec bash -l
 fi
 
 # HISTCONTROL=ignoreboth
@@ -109,6 +112,11 @@ export NNN_OPTS="deH"
 # export NNN_OPTS="H"
 
 # Tmux on startup
- if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-     tmux attach -t default || tmux new -s default
- fi
+# if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
+#     tmux attach -t default || tmux new -s default
+# fi
+
+# I'll have lua_path here bcz all I'm using lua is neovim conf :p
+export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
+# export RUSTUP_HOME="/var/cache/rustup"
+# export CARGO_HOME="/var/cache/rustup"
