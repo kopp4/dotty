@@ -2,7 +2,7 @@ anki-bin
 ascii-image-converter
 autojump
 betterdiscordctl
-castero
+castero-git
 catppuccin-mocha-dark-cursors
 chatgpt-cli-git
 chromaprint-fftw
@@ -13,7 +13,7 @@ dpkg-git
 electronic-wechat-uos-bin
 element-desktop-nightly-bin
 epy-git
-eww-wayland-git
+eww-wayland
 fcitx5-skin-fluentdark-git
 gamepad-tool-bin
 geticons
@@ -24,6 +24,7 @@ hunspell-ja-git
 hyprland-nvidia-git
 hyprpicker-git
 light-git
+lobster-git
 ly-git
 mpv-amd-full-git
 mupdf-git
@@ -46,7 +47,7 @@ protontricks
 rofi-git
 rustdesk-bin
 ryujinx-bin
-sioyek
+sioyek-git
 slack-desktop-wayland
 socat-git
 spamton-shimeji
@@ -56,10 +57,9 @@ sway-audio-idle-inhibit-git
 swayidle-git
 swaylockd
 swww-git
-timetrace
+timer-bin
 tmux-plugin-manager
 todoist-git
-todotxt-git
 toilet
 translate-shell-git
 ttf-cm-unicode

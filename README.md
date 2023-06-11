@@ -21,6 +21,7 @@ rm -rf -- ~/dotty ~/.git
 - [ ] can I back up my systemctl too ?
 - [ ] man gittutorial
 - [ ] ssh gittutorial
+- [ ] I don't want to make a db of inshi
 
 
 

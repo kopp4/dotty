@@ -57,6 +57,7 @@ jq
 jupyterlab
 khal
 kitty
+kodi
 lazygit
 lib32-nvidia-utils
 lib32-ocl-icd
@@ -76,6 +77,7 @@ ncdu
 neomutt
 networkmanager
 newsboat
+ninja
 nm-connection-editor
 nmap
 nodejs
@@ -97,11 +99,16 @@ pavucontrol
 pipewire-pulse
 playerctl
 pulseaudio-alsa
+pyenv
 pyright
+python-hypothesis
 python-pip
 python-pyalsa
+python-pytest
+python-scikit-build
 python-setuptools-scm
 qbittorrent
+qrencode
 qt5-graphicaleffects
 qt5-wayland
 qt5ct
@@ -195,4 +202,5 @@ zathura
 zathura-cb
 zathura-pdf-mupdf
 zenity
+zip
 zsh
