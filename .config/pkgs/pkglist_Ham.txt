@@ -88,9 +88,9 @@ nvidia-lts
 nvidia-prime
 nvidia-settings
 nvidia-utils
-obsidian
 openresolv
 openssh
+openssl
 otf-ipafont
 pacman
 pacman-contrib
@@ -108,6 +108,7 @@ qbittorrent
 qt5-graphicaleffects
 qt5-speech
 qt5-wayland
+rclone
 ripgrep
 rustup
 sassc
