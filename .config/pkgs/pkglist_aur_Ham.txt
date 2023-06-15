@@ -2,7 +2,7 @@ aliyundrive-fuse
 anbox-modules-dkms-git
 anki-bin
 ascii-image-converter
-autojump
+autojump-rs
 betterdiscordctl
 cava
 dingtalk-bin
@@ -14,8 +14,6 @@ fcitx5-rime-git
 fcitx5-skin-fluentdark-git
 geticons
 goldendict-webengine-git
-google-chrome
-google-drive-ocamlfuse-opam
 hyprland-git
 hyprpicker-git
 libime-git
@@ -36,6 +34,8 @@ package-query
 paru
 pokemon-colorscripts-git
 python38
+qrcp-bin
+qrencode-git
 rustdesk-git
 sddm-archlinux-theme-git
 sddm-elegant-theme-git
@@ -47,6 +47,7 @@ sway-audio-idle-inhibit-git
 swaylock-effects-git
 swaylockd
 swww
+syncthing-bin
 tmux-plugin-manager
 todoist-git
 tofi

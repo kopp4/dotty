@@ -13,6 +13,8 @@ git clone --depth 1 --recurse-submodules "https://github.com/kopp4/dotty.git" ~/
 cp -rfT ~/dotty ~/
 cp -rf ~/.git ~/.dotfiles
 rm -rf -- ~/dotty ~/.git
+source ~/.zshrc
+dot config status.showUntrackedFiles no
 ```
 
 # TODOs
