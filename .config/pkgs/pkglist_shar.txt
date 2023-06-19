@@ -2,6 +2,8 @@ acpi
 adobe-source-han-sans-jp-fonts
 alsa-utils
 amd-ucode
+android-tools
+android-udev
 ant
 aria2
 asciidoctor
@@ -28,8 +30,11 @@ dictd
 discord
 dkms
 dmenu
+dmg2img
+dnsmasq
 docker
 dunst
+edk2-ovmf
 efibootmgr
 enca
 espeak-ng
@@ -52,6 +57,7 @@ grub
 hunspell-en_us
 inetutils
 intel-ucode
+iptables-nft
 iwd
 jq
 jupyterlab
@@ -62,8 +68,12 @@ lazygit
 lib32-nvidia-utils
 lib32-ocl-icd
 libertinus-font
+libguestfs
 libheif
+libmtp
 libva-mesa-driver
+libvirt
+libvirt-dbus
 linux-firmware
 linux-lts
 linux-lts-headers
@@ -75,6 +85,7 @@ mpd
 nautilus
 ncdu
 neomutt
+netctl
 networkmanager
 newsboat
 ninja
@@ -108,6 +119,7 @@ python-pytest
 python-scikit-build
 python-setuptools-scm
 qbittorrent
+qemu-base
 qrencode
 qt5-graphicaleffects
 qt5-wayland
@@ -127,6 +139,7 @@ steam
 swappy
 swaybg
 swaylock
+syncthing
 telegram-desktop
 tig
 tldr
@@ -143,6 +156,7 @@ unzip
 vdirsyncer
 vi
 vim
+virt-manager
 viu
 vscode-css-languageserver
 vscode-html-languageserver
