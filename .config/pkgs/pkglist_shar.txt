@@ -2,8 +2,6 @@ acpi
 adobe-source-han-sans-jp-fonts
 alsa-utils
 amd-ucode
-android-tools
-android-udev
 ant
 aria2
 asciidoctor

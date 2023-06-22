@@ -1,4 +1,3 @@
-android-sdk-platform-tools
 anki-bin
 ascii-image-converter
 autojump
@@ -6,17 +5,12 @@ betterdiscordctl
 castero-git
 catppuccin-mocha-dark-cursors
 chromaprint-fftw
-crqt-ng-git
 dingtalk-bin
 dpkg-git
 electronic-wechat-uos-bin
 element-desktop-nightly-bin
-epsxe-plugin-gpu-mesagl
-epy-git
 eww-wayland
 fcitx5-skin-fluentdark-git
-gamepad-tool-bin
-geticons
 goldendict-webengine-git
 google-chrome
 google-drive-ocamlfuse-opam
@@ -28,7 +22,6 @@ lobster-git
 looking-glass
 ly-git
 mpv-amd-full-git
-mupdf-git
 ncmpcpp-git
 ncurses5-compat-libs
 neovim-jdtls-git
