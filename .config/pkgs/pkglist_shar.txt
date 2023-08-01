@@ -80,8 +80,10 @@ lua-language-server
 lutris
 mesa
 mpd
+mpv
 nautilus
 ncdu
+ncmpcpp
 neomutt
 netctl
 networkmanager
@@ -111,6 +113,7 @@ pulseaudio-alsa
 pyenv
 pyright
 python-hypothesis
+python-numpy
 python-pip
 python-pyalsa
 python-pytest

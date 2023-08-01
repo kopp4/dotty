@@ -5,6 +5,7 @@ betterdiscordctl
 castero-git
 catppuccin-mocha-dark-cursors
 chromaprint-fftw
+chromedriver
 dingtalk-bin
 dpkg-git
 electronic-wechat-uos-bin
@@ -21,8 +22,6 @@ light-git
 lobster-git
 looking-glass
 ly-git
-mpv-amd-full-git
-ncmpcpp-git
 ncurses5-compat-libs
 neovim-jdtls-git
 netstandard-targeting-pack-bin
@@ -30,6 +29,7 @@ networkmanager-dmenu-git
 nitch
 nnn-git
 noto-fonts-sc
+nsz-git
 nvidia-vaapi-driver-git
 nvim-packer-git
 opkg
@@ -40,6 +40,7 @@ package-query
 pcsx2-latest-bin
 pokemon-colorscripts-git
 protontricks
+python-selenium
 qrcp-bin
 rofi-git
 rustdesk-bin
@@ -60,15 +61,16 @@ todoist-git
 toilet
 translate-shell-git
 ttf-cm-unicode
-ttf-mac-fonts
 typst-bin
 unified-remote-server
 waybar-hyprland-git
 webcord
 wine-for-wechat
+wireshark-git
 wl-clip-persist-git
 wl-clipboard-git
 xpad-dkms-git
 yay-bin
 youtube-dl-git
 zoom
+zotero-bin

@@ -65,3 +65,4 @@ image/gif=mpv.desktop
 application/pdf=sioyek.desktop;
 text/html=nvim.desktop;
 image/gif=nsxiv.desktop;mpv.desktop;
+application/x-zerosize=nvim.desktop;
