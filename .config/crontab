@@ -1,14 +1,18 @@
 XDG_RUNTIME_DIR=/run/user/$(id -u)
 # I shall nighty nighty
-20 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
-24 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+30 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+34 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 
 # todolist and caldav sync 
 20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
 20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"
 
+20 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /home/koppa/CS/script/karma.sh 
+
 00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
 00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"
+
+# 55 20 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli karma > /home/koppa/CS/karma && /usr/bin/awk 'NR==1{p=$0} NR>1{if($0>p) XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Awesome!" "Your Karma is increasing"; else XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Noo!" "Your Karma is decreasing"' /home/koppa/CS/karma
 
 # crontab sync it's a lil ugly but someday I'll fix it
 00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) crontab -l > /home/koppa/.config/crontab && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Crontab Synced" "Your crontab is up to date!"

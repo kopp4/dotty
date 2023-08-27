@@ -95,7 +95,7 @@ setopt auto_cd
 
 # bindkey -s '\e\e' '\C-asudo \C-e'
 bindkey -s '\e\e' '^[Isudo ^[A'
-bindkey -s '^f' 'nvim $(fzf)\n'
+bindkey -s '^f' 'xdg-open $(fzf) \n'
 bindkey -s "^[l" "ls\n"
 
 eval "$(starship init zsh)"
@@ -117,6 +117,6 @@ export NNN_OPTS="deH"
 # fi
 
 # I'll have lua_path here bcz all I'm using lua is neovim conf :p
-export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
+# export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
 # export RUSTUP_HOME="/var/cache/rustup"
 # export CARGO_HOME="/var/cache/rustup"
