@@ -18,10 +18,12 @@ bluez
 bluez-tools
 bluez-utils
 btop
+cdrtools
 clang
 clash
 cliphist
 cronie
+cuda
 cxxopts
 dhcpcd
 dictd
@@ -58,6 +60,7 @@ intel-ucode
 iptables-nft
 iwd
 jq
+jupyter-notebook
 jupyterlab
 khal
 kitty
@@ -113,12 +116,17 @@ pulseaudio-alsa
 pyenv
 pyright
 python-hypothesis
+python-matplotlib
 python-numpy
+python-opencv
 python-pip
 python-pyalsa
 python-pytest
+python-pytorch-cuda
 python-scikit-build
+python-scipy
 python-setuptools-scm
+python-socksio
 qbittorrent
 qemu-base
 qrencode
@@ -145,6 +153,7 @@ telegram-desktop
 tig
 tldr
 tmux
+toilet
 traceroute
 ttf-daddytime-mono-nerd
 ttf-dejavu

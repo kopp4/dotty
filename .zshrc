@@ -95,7 +95,7 @@ setopt auto_cd
 
 # bindkey -s '\e\e' '\C-asudo \C-e'
 bindkey -s '\e\e' '^[Isudo ^[A'
-bindkey -s '^f' 'xdg-open $(fzf) \n'
+bindkey -s '^f' 'xdg-open "$(fzf)" \n'
 bindkey -s "^[l" "ls\n"
 
 eval "$(starship init zsh)"
