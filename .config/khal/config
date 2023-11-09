@@ -18,11 +18,6 @@ longdatetimeformat = %Y-%m-%d %H:%M
   priority = 10
   readonly = true
 
-[[school]]
-  path = ~/.config/vdirsyncer/calendars/NDg5NzUwODE1QHVzZXJzLmRpbmd0YWxrLmNvbXxnNDg5NzUwODE1XzE2Nzg0MzU4NDEwMTQ
-  color = dark blue
-  priority = 5
-  readonly = true
 [default]
 
 highlight_event_days = true
