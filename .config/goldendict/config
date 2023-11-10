@@ -1,77 +1,26 @@
 <config>
  <paths>
-  <path recursive="1">/Windows/Software/dic/eudic</path>
+  <path recursive="0">/Windows/Software/dic/eudic</path>
+  <path recursive="1">/home/koppa/etc/Dictionary</path>
  </paths>
  <sounddirs>
-  <sounddir name="DicArchive" icon="">/Windows/Software/dic/eudic/DicArchive</sounddir>
+  <sounddir icon="" name="DicArchive">/Windows/Software/dic/eudic/DicArchive</sounddir>
  </sounddirs>
  <dictionaryOrder id="0" name="">
   <dictionary name="English (US) Morphology">bb46cb51d4db42d2212d663570fbec45</dictionary>
   <dictionary name="Japanese (JP) Morphology">a4b0c0b061cead2d9377d20dbf976b42</dictionary>
-  <dictionary name="DicArchive">f95e175bada69dafa6f92ea7dd9149f7</dictionary>
-  <dictionary name="(The Japan Times) A Dictionary of Japanese Grammar [Complete Edition]">400f96094c5d7686a770141cfa8ed7d4</dictionary>
-  <dictionary name="(Weblio) 日本語活用形辞書">84f1434128fb1627e44fa01c4eae5b71</dictionary>
-  <dictionary name="（くろしお出版）日本語文型辞典［英語版］">ad9a0f130ed7619e1d272467af02ca4b</dictionary>
-  <dictionary name="（アルク）どんなときどう使う日本語表現文型辞典［新装版］">7b5cd3f4a7aa78b1c89ef53c7299a47a</dictionary>
-  <dictionary name="（三省堂）超級クラウン日中辞典">7df87d1e3ca4b8e24daf8b703d73a2ce</dictionary>
-  <dictionary name="[其他语种] 《新日汉大辞典》（转自金山词霸09版）[字數100107](090126)">8f981e3f2e79998683ff96edb534e799</dictionary>
-  <dictionary name="新時代日漢辭典">3953f325a8afcd765f4e3448380e480c</dictionary>
-  <dictionary name="小学館日中辞典v3">9a89afb0537fc92c4d082932e3ddd0ea</dictionary>
-  <dictionary name="MOJi辞書">1f457df54a43e09936e7e1ca587b53d5</dictionary>
-  <dictionary name="講談社日中">c1a79b00f618d2d9f5ab54208cf1bc8b</dictionary>
-  <dictionary name="ACE2">74e38cede9f1c6b9a3f13a33f7b5cef1</dictionary>
-  <dictionary name="研究社新編英和活用大辞典">0adfcc053f245e934c9a6875f41221b0</dictionary>
-  <dictionary name="（三省堂）スーパー大辞林 [3.0]">da397ed8629efb2f78968f77b653cee7</dictionary>
-  <dictionary name="（三省堂）新明解国語辞典［第七版］">03bf117044edf4a8be2f818ec2439792</dictionary>
-  <dictionary name="（大修館）明鏡国語辞典［第三版］">18abad741bcce9f90d452e8ac52e6ab8</dictionary>
-  <dictionary name="（小学館）デジタル大辞泉 [2021.10]">3e98bfce6b5604b3278f4f60dd89e345</dictionary>
-  <dictionary name="(Lookvise) 日本語俗語辞書">aa0ef1f041c612c0a552cfdcde520a26</dictionary>
-  <dictionary name="(practical-japanese.com) 実用日本語表現辞典">3e88ee18e45378abe12fbfa7f726b607</dictionary>
-  <dictionary name="（研究社）日本語表現活用辞典">ce22ca5b03a8c6661c1f142ff55806c9</dictionary>
-  <dictionary name="(Weblio) 類語辞典">756c5fd25bee7ac46ee5239c69424f42</dictionary>
-  <dictionary name="（小学館）使い方の分かる類語例解辞典［新装版］">ded6933f6a20b16626620f9a11befa3b</dictionary>
-  <dictionary name="（藤本直）類語玉手箱">e257bf274e394f8159321cadac32b890</dictionary>
-  <dictionary name="(Weblio) 対義語・反対語辞書">94c9ec505a76eb2c36266fa132d5668e</dictionary>
-  <dictionary name="(NHK) 日本語発音アクセント辞典">84c02e3df4aeccef03e4afc2afb87dab</dictionary>
-  <dictionary name="LDOCE5++ En-Cn V2.15">2eaefc86193e60c5661edd4c97b3ff2d</dictionary>
-  <dictionary name="Longman Dictionary of American English 5th edition">c50ed6618631f5252d76f79367b07b3b</dictionary>
-  <dictionary name="The Little Dict">ef731d96d9d60faed20915a3168ad1f0</dictionary>
-  <dictionary name="Word Web">6666f1b06dde4a223d7b78f8ce7e8edb</dictionary>
-  <dictionary name="（大修館）明鏡国語辞典［第三版］">593f0105a46a3b71b16c8e0ca2425650</dictionary>
   <mutedDictionaries/>
  </dictionaryOrder>
  <inactiveDictionaries id="0" name="">
   <mutedDictionaries/>
  </inactiveDictionaries>
  <groups nextId="3">
-  <group id="1" name="日本語" icon="jp.png">
+  <group icon="jp.png" id="1" name="日本語">
    <dictionary name="Japanese (JP) Morphology">a4b0c0b061cead2d9377d20dbf976b42</dictionary>
-   <dictionary name="(NHK) 日本語発音アクセント辞典">84c02e3df4aeccef03e4afc2afb87dab</dictionary>
-   <dictionary name="（三省堂）スーパー大辞林 [3.0]">da397ed8629efb2f78968f77b653cee7</dictionary>
-   <dictionary name="（三省堂）新明解国語辞典［第七版］">03bf117044edf4a8be2f818ec2439792</dictionary>
-   <dictionary name="（大修館）明鏡国語辞典［第三版］">18abad741bcce9f90d452e8ac52e6ab8</dictionary>
-   <dictionary name="（小学館）デジタル大辞泉 [2021.10]">3e98bfce6b5604b3278f4f60dd89e345</dictionary>
-   <dictionary name="MOJi辞書">1f457df54a43e09936e7e1ca587b53d5</dictionary>
-   <dictionary name="（三省堂）超級クラウン日中辞典">7df87d1e3ca4b8e24daf8b703d73a2ce</dictionary>
-   <dictionary name="（アルク）どんなときどう使う日本語表現文型辞典［新装版］">7b5cd3f4a7aa78b1c89ef53c7299a47a</dictionary>
-   <dictionary name="（くろしお出版）日本語文型辞典［英語版］">ad9a0f130ed7619e1d272467af02ca4b</dictionary>
-   <dictionary name="(Weblio) 日本語活用形辞書">84f1434128fb1627e44fa01c4eae5b71</dictionary>
-   <dictionary name="(The Japan Times) A Dictionary of Japanese Grammar [Complete Edition]">400f96094c5d7686a770141cfa8ed7d4</dictionary>
-   <dictionary name="(Lookvise) 日本語俗語辞書">aa0ef1f041c612c0a552cfdcde520a26</dictionary>
-   <dictionary name="(practical-japanese.com) 実用日本語表現辞典">3e88ee18e45378abe12fbfa7f726b607</dictionary>
-   <dictionary name="（研究社）日本語表現活用辞典">ce22ca5b03a8c6661c1f142ff55806c9</dictionary>
-   <dictionary name="(Weblio) 類語辞典">756c5fd25bee7ac46ee5239c69424f42</dictionary>
-   <dictionary name="（小学館）使い方の分かる類語例解辞典［新装版］">ded6933f6a20b16626620f9a11befa3b</dictionary>
-   <dictionary name="（藤本直）類語玉手箱">e257bf274e394f8159321cadac32b890</dictionary>
-   <dictionary name="(Weblio) 対義語・反対語辞書">94c9ec505a76eb2c36266fa132d5668e</dictionary>
    <mutedDictionaries/>
   </group>
-  <group id="2" name="English" icon="en.png">
-   <dictionary name="Longman Dictionary of American English 5th edition">c50ed6618631f5252d76f79367b07b3b</dictionary>
-   <dictionary name="The Little Dict">ef731d96d9d60faed20915a3168ad1f0</dictionary>
+  <group icon="en.png" id="2" name="English">
    <dictionary name="English (US) Morphology">bb46cb51d4db42d2212d663570fbec45</dictionary>
-   <dictionary name="LDOCE5++ En-Cn V2.15">2eaefc86193e60c5661edd4c97b3ff2d</dictionary>
-   <dictionary name="Word Web">6666f1b06dde4a223d7b78f8ce7e8edb</dictionary>
    <mutedDictionaries/>
   </group>
  </groups>
@@ -109,37 +58,37 @@
   <languageCodes></languageCodes>
  </forvo>
  <mediawikis>
-  <mediawiki id="ae6f89aac7151829681b85f035d54e48" enabled="0" name="English Wikipedia" icon="" url="https://en.wikipedia.org/w"/>
-  <mediawiki id="affcf9678e7bfe701c9b071f97eccba3" enabled="0" name="English Wiktionary" icon="" url="https://en.wiktionary.org/w"/>
-  <mediawiki id="8e0c1c2b6821dab8bdba8eb869ca7176" enabled="0" name="Russian Wikipedia" icon="" url="https://ru.wikipedia.org/w"/>
-  <mediawiki id="b09947600ae3902654f8ad4567ae8567" enabled="0" name="Russian Wiktionary" icon="" url="https://ru.wiktionary.org/w"/>
-  <mediawiki id="a8a66331a1242ca2aeb0b4aed361c41d" enabled="0" name="German Wikipedia" icon="" url="https://de.wikipedia.org/w"/>
-  <mediawiki id="21c64bca5ec10ba17ff19f3066bc962a" enabled="0" name="German Wiktionary" icon="" url="https://de.wiktionary.org/w"/>
-  <mediawiki id="96957cb2ad73a20c7a1d561fc83c253a" enabled="0" name="Portuguese Wikipedia" icon="" url="https://pt.wikipedia.org/w"/>
-  <mediawiki id="ed4c3929196afdd93cc08b9a903aad6a" enabled="0" name="Portuguese Wiktionary" icon="" url="https://pt.wiktionary.org/w"/>
-  <mediawiki id="f3b4ec8531e52ddf5b10d21e4577a7a2" enabled="0" name="Greek Wikipedia" icon="" url="https://el.wikipedia.org/w"/>
-  <mediawiki id="5d45232075d06e002dea72fe3e137da1" enabled="0" name="Greek Wiktionary" icon="" url="https://el.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="ae6f89aac7151829681b85f035d54e48" name="English Wikipedia" url="https://en.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="affcf9678e7bfe701c9b071f97eccba3" name="English Wiktionary" url="https://en.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="8e0c1c2b6821dab8bdba8eb869ca7176" name="Russian Wikipedia" url="https://ru.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="b09947600ae3902654f8ad4567ae8567" name="Russian Wiktionary" url="https://ru.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="a8a66331a1242ca2aeb0b4aed361c41d" name="German Wikipedia" url="https://de.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="21c64bca5ec10ba17ff19f3066bc962a" name="German Wiktionary" url="https://de.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="96957cb2ad73a20c7a1d561fc83c253a" name="Portuguese Wikipedia" url="https://pt.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="ed4c3929196afdd93cc08b9a903aad6a" name="Portuguese Wiktionary" url="https://pt.wiktionary.org/w"/>
+  <mediawiki enabled="0" icon="" id="f3b4ec8531e52ddf5b10d21e4577a7a2" name="Greek Wikipedia" url="https://el.wikipedia.org/w"/>
+  <mediawiki enabled="0" icon="" id="5d45232075d06e002dea72fe3e137da1" name="Greek Wiktionary" url="https://el.wiktionary.org/w"/>
  </mediawikis>
  <websites>
-  <website id="b88cb2898e634c6638df618528284c2d" enabled="0" inside_iframe="1" name="Google En-En (Oxford)" icon="" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en"/>
-  <website id="f376365a0de651fd7505e7e5e683aa45" enabled="0" inside_iframe="1" name="Urban Dictionary" icon="" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
-  <website id="324ca0306187df7511b26d3847f4b07c" enabled="0" inside_iframe="1" name="Multitran (En)" icon="" url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%"/>
-  <website id="924db471b105299c82892067c0f10787" enabled="0" inside_iframe="1" name="Lingvo (En-Ru)" icon="" url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%"/>
-  <website id="087a6d65615fb047f4c80eef0a9465db" enabled="0" inside_iframe="1" name="Michaelis (Pt-En)" icon="" url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%"/>
+  <website inside_iframe="1" enabled="0" icon="" id="b88cb2898e634c6638df618528284c2d" name="Google En-En (Oxford)" url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en"/>
+  <website inside_iframe="1" enabled="0" icon="" id="f376365a0de651fd7505e7e5e683aa45" name="Urban Dictionary" url="https://www.urbandictionary.com/define.php?term=%GDWORD%"/>
+  <website inside_iframe="1" enabled="0" icon="" id="324ca0306187df7511b26d3847f4b07c" name="Multitran (En)" url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%"/>
+  <website inside_iframe="1" enabled="0" icon="" id="924db471b105299c82892067c0f10787" name="Lingvo (En-Ru)" url="http://lingvopro.abbyyonline.com/en/Search/en-ru/%GDWORD%"/>
+  <website inside_iframe="1" enabled="0" icon="" id="087a6d65615fb047f4c80eef0a9465db" name="Michaelis (Pt-En)" url="http://michaelis.uol.com.br/moderno/ingles/index.php?lingua=portugues-ingles&amp;palavra=%GDISO1%"/>
  </websites>
  <dictservers/>
  <programs>
-  <program id="428b4c2b905ef568a43d9a16f59559b0" commandLine="festival --tts" enabled="0" name="Festival" type="0" icon=""/>
-  <program id="2cf8b3a60f27e1ac812de0b57c148340" commandLine="espeak %GDWORD%" enabled="0" name="Espeak" type="0" icon=""/>
-  <program id="4f898f7582596cea518c6b0bfdceb8b3" commandLine="man -a --html=/bin/cat %GDWORD%" enabled="0" name="Manpages" type="2" icon=""/>
+  <program enabled="0" type="0" icon="" id="428b4c2b905ef568a43d9a16f59559b0" name="Festival" commandLine="festival --tts"/>
+  <program enabled="0" type="0" icon="" id="2cf8b3a60f27e1ac812de0b57c148340" name="Espeak" commandLine="espeak %GDWORD%"/>
+  <program enabled="0" type="2" icon="" id="4f898f7582596cea518c6b0bfdceb8b3" name="Manpages" commandLine="man -a --html=/bin/cat %GDWORD%"/>
  </programs>
  <voiceEngines/>
  <mutedDictionaries/>
  <popupMutedDictionaries>
-  <mutedDictionary>7b5cd3f4a7aa78b1c89ef53c7299a47a</mutedDictionary>
   <mutedDictionary>8f981e3f2e79998683ff96edb534e799</mutedDictionary>
-  <mutedDictionary>1f457df54a43e09936e7e1ca587b53d5</mutedDictionary>
   <mutedDictionary>c1a79b00f618d2d9f5ab54208cf1bc8b</mutedDictionary>
+  <mutedDictionary>7b5cd3f4a7aa78b1c89ef53c7299a47a</mutedDictionary>
+  <mutedDictionary>1f457df54a43e09936e7e1ca587b53d5</mutedDictionary>
   <mutedDictionary>9a89afb0537fc92c4d082932e3ddd0ea</mutedDictionary>
  </popupMutedDictionaries>
  <preferences>
@@ -189,7 +138,7 @@
   <historyStoreInterval>0</historyStoreInterval>
   <favoritesStoreInterval>0</favoritesStoreInterval>
   <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
-  <proxyserver enabled="0" useSystemProxy="0">
+  <proxyserver useSystemProxy="0" enabled="0">
    <type>0</type>
    <host></host>
    <port>3128</port>
@@ -243,7 +192,7 @@
  <lastMainGroupId>4294967294</lastMainGroupId>
  <lastPopupGroupId>2</lastPopupGroupId>
  <popupWindowState>AAAA/wAAAAH9AAAAAAAAA3EAAAH6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
- <popupWindowGeometry>AdnQywADAAAAAAKzAAACtgAABksAAASvAAACswAAArYAAAZLAAAErwAAAAAAAAAACf8AAAKzAAACtgAABksAAASv</popupWindowGeometry>
+ <popupWindowGeometry>AdnQywADAAAAAALVAAADAgAABm0AAAT7AAAC1QAAAwIAAAZtAAAE+wAAAAAAAAAACf8AAALVAAADAgAABm0AAAT7</popupWindowGeometry>
  <pinPopupWindow>0</pinPopupWindow>
  <popupWindowAlwaysOnTop>1</popupWindowAlwaysOnTop>
  <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAACNAAAFKvwCAAAAAvsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUAAAAAOwAAAfwAAACFAP////sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAADsAAAUqAAAAYQD///8AAAABAAAAcAAABSr8AgAAAAL7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAADsAAAFsAAAAYQD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAABrQAAA7gAAABhAP///wAACO4AAAUqAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgAAAAF9/////wAAAAAAAAAA</mainWindowState>
