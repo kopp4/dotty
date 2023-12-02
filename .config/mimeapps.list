@@ -60,9 +60,12 @@ text/x-shellscript=neovide.desktop
 application/pdf=sioyek.desktop
 application/epub+zip=epy.desktop
 image/gif=mpv.desktop
+application/json=nvim.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;
 text/html=nvim.desktop;
 image/gif=nsxiv.desktop;mpv.desktop;
 application/x-zerosize=nvim.desktop;
+application/json=nvim.desktop;
+application/x-tiled-tsx=nvim.desktop;

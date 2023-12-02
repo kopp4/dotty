@@ -15,12 +15,12 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 # 55 20 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli karma > /home/koppa/CS/karma && /usr/bin/awk 'NR==1{p=$0} NR>1{if($0>p) XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Awesome!" "Your Karma is increasing"; else XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Noo!" "Your Karma is decreasing"' /home/koppa/CS/karma
 
 # crontab sync it's a lil ugly but someday I'll fix it
-00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) crontab -l > /home/koppa/.config/crontab && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Crontab Synced" "Your crontab is up to date!"
+0 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) crontab -l > /home/koppa/.config/crontab && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Crontab Synced" "Your crontab is up to date!"
 
 # IDK 
 00 * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "hi" "It's $(date +%H) now"
 05 * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "hi" "It's $(XDG_RUNTIME_DIR=/run/user/$(id -u) date +%H) now"
 
 # wallpaper
-0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Wallpaper updated!" "$(python CS/script/quote.py)"
+0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Wallpaper updated!" "$(python .config/shell/quote.py)"
 

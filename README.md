@@ -15,6 +15,14 @@ cp -rf ~/.git ~/.dotfiles
 rm -rf -- ~/dotty ~/.git
 source ~/.zshrc
 dot config status.showUntrackedFiles no
+# spicetify
+git clone --depth=1 https://github.com/spicetify/spicetify-themes.git
+cd spicetify-themes
+cp -r * ~/.config/spicetify/Themes
+cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
+spicetify config current_theme Dribbblish color_scheme base
+spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
+spicetify apply
 ```
 
 # TODOs
