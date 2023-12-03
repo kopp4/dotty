@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Newsboat - Local
+GenericName=Terminal podcast Player
+TryExec=/sbin/newsboat
+Exec=kitty -e /sbin/newsboat
+Terminal=false
+Categories=Network

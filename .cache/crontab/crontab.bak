@@ -14,8 +14,8 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 
 # 55 20 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli karma > /home/koppa/CS/karma && /usr/bin/awk 'NR==1{p=$0} NR>1{if($0>p) XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Awesome!" "Your Karma is increasing"; else XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Noo!" "Your Karma is decreasing"' /home/koppa/CS/karma
 
-# crontab sync it's a lil ugly but someday I'll fix it
-00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) crontab -l > /home/koppa/.config/crontab && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Crontab Synced" "Your crontab is up to date!"
+# pkgs sync it's a lil ugly but someday I'll fix it
+00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/pkgs/backup.sh && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Packages Synced" "Your packages is up to date!"
 
 # IDK 
 00 * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "hi" "It's $(date +%H) now"
