@@ -61,6 +61,8 @@ application/pdf=sioyek.desktop
 application/epub+zip=epy.desktop
 image/gif=mpv.desktop
 application/json=nvim.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.desktop
+image/webp=nsxiv.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;
@@ -69,3 +71,5 @@ image/gif=nsxiv.desktop;mpv.desktop;
 application/x-zerosize=nvim.desktop;
 application/json=nvim.desktop;
 application/x-tiled-tsx=nvim.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.desktop;
+image/webp=nsxiv.desktop;

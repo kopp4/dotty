@@ -68,7 +68,7 @@ jupyter-notebook
 jupyterlab
 khal
 kitty
-kodi
+kodi-tools-texturepacker
 lazygit
 lib32-nvidia-utils
 lib32-ocl-icd
@@ -83,9 +83,9 @@ linux-lts
 linux-lts-headers
 lsof
 lua-language-server
+lutris
 mariadb
 mesa
-mitmproxy
 mpd
 mpv
 nautilus
@@ -183,6 +183,7 @@ vsftpd
 wf-recorder
 wget
 whois
+wine
 wofi
 wqy-microhei
 xclip
