@@ -65,6 +65,7 @@ slidev-cli
 socat-git
 spicetify-cli
 spotify
+spotube-bin
 sqlmap-bin
 sway-audio-idle-inhibit-git
 swayidle-git

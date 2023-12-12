@@ -63,6 +63,7 @@ image/gif=mpv.desktop
 application/json=nvim.desktop
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.desktop
 image/webp=nsxiv.desktop
+x-scheme-handler/discord-1176718791388975124=discord-1176718791388975124.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;

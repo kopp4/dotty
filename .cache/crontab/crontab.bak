@@ -1,7 +1,10 @@
 XDG_RUNTIME_DIR=/run/user/$(id -u)
 # I shall nighty nighty
-30 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
-34 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+# 30 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+# 34 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+
+55 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+59 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 
 # todolist and caldav sync 
 20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
@@ -22,5 +25,5 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 05 * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "hi" "It's $(XDG_RUNTIME_DIR=/run/user/$(id -u) date +%H) now"
 
 # wallpaper
-0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Wallpaper updated!" "$(python .config/shell/quote.py)"
+0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal -t 5000 "Wallpaper updated!" "$(python .config/shell/quote.py)"
 

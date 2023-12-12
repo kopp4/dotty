@@ -62,6 +62,8 @@ inetutils
 intel-ucode
 iptables-nft
 iwd
+jellyfin-server
+jellyfin-web
 jq
 jre-openjdk
 jupyter-notebook
@@ -142,6 +144,7 @@ qt5-graphicaleffects
 qt5-wayland
 qt5ct
 rclone
+reflector
 ripgrep
 rofimoji
 rsync
