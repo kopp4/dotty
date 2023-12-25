@@ -26,6 +26,7 @@ clash
 cliphist
 cronie
 cuda
+cups
 cxxopts
 dhcpcd
 dictd
@@ -57,13 +58,12 @@ go
 gparted
 grim
 grub
+gutenprint
 hunspell-en_us
 inetutils
 intel-ucode
 iptables-nft
 iwd
-jellyfin-server
-jellyfin-web
 jq
 jre-openjdk
 jupyter-notebook
@@ -77,6 +77,7 @@ lib32-ocl-icd
 libertinus-font
 libheif
 libmtp
+libreoffice-still
 libva-mesa-driver
 libvirt
 libvirt-dbus

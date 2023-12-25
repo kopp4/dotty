@@ -10,13 +10,14 @@ dingtalk-bin
 dirsearch
 discord_arch_electron
 downgrade
+dupeguru
 epsxe
 eww-wayland
 fcitx5-gtk-git
 fcitx5-input-support
 fcitx5-skin-fluentdark-git
 freetube-bin
-goldendict-webengine-git
+goldendict-ng-git
 google-chrome
 hunspell-ja-git
 hyprland-nvidia
@@ -25,7 +26,6 @@ kodi-addon-pvr-iptvsimple
 kodi-standalone-service
 koreader-appimage
 light-git
-lobster-git
 looking-glass
 ly-git
 ncurses5-compat-libs
@@ -65,7 +65,6 @@ slidev-cli
 socat-git
 spicetify-cli
 spotify
-spotube-bin
 sqlmap-bin
 sway-audio-idle-inhibit-git
 swayidle-git
