@@ -59,9 +59,11 @@ inetutils
 intel-ucode
 iwd
 jq
+khal
 kitty
 lazygit
 libheif
+libime
 libtool
 libvirt
 linux-firmware
@@ -74,6 +76,8 @@ make
 mesa
 mpd
 nautilus
+ncdu
+ncmpcpp
 neovim
 networkmanager
 newsboat
@@ -88,6 +92,7 @@ nvidia-lts
 nvidia-prime
 nvidia-settings
 nvidia-utils
+obsidian
 openresolv
 openssh
 openssl
@@ -103,12 +108,13 @@ pkgconf
 playerctl
 pulseaudio-alsa
 python-pip
+python-pipx
 python-pyalsa
 qbittorrent
 qt5-graphicaleffects
 qt5-speech
 qt5-wayland
-rclone
+reflector
 ripgrep
 rustup
 sassc
@@ -123,6 +129,7 @@ sudo
 swappy
 swaybg
 swayidle
+syncthing
 telegram-desktop
 texinfo
 thunderbird
@@ -136,6 +143,7 @@ ttf-nerd-fonts-symbols-common
 typescript-language-server
 unrar
 unzip
+vdirsyncer
 vi
 vim
 virtualbox
