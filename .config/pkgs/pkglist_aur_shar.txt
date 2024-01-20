@@ -1,7 +1,9 @@
+alarm-clock-applet
 anki-bin
 ascii-image-converter
 autojump
 betterdiscordctl
+bottles
 chromaprint-fftw
 csview-bin
 cython-git
@@ -38,7 +40,6 @@ noto-fonts-sc
 nsz-git
 nvidia-vaapi-driver-git
 nvim-packer-git
-obsidian-bin
 opkg
 orchis-theme
 osu-lazer-bin
