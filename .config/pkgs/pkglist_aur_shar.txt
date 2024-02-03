@@ -19,7 +19,7 @@ fcitx5-gtk-git
 fcitx5-input-support
 fcitx5-skin-fluentdark-git
 freetube-bin
-goldendict-ng-git
+goldendict-webengine-pr-git
 google-chrome
 hunspell-ja-git
 hyprland-nvidia
