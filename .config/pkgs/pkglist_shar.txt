@@ -36,6 +36,7 @@ dmg2img
 dnsmasq
 docker
 dunst
+earlyoom
 edk2-ovmf
 efibootmgr
 enca
@@ -44,6 +45,7 @@ fcitx5-chinese-addons
 fcitx5-configtool
 fcitx5-mozc
 fcitx5-nord
+fd
 firefox
 firewalld
 foliate
@@ -51,7 +53,7 @@ fontforge
 fzf
 gifsicle
 git
-glfw-wayland
+glfw
 gnome-disk-utility
 gnu-netcat
 go
@@ -141,6 +143,7 @@ python-scikit-build
 python-scipy
 python-setuptools-scm
 python-socksio
+python-torchvision-cuda
 qbittorrent
 qrencode
 qt5-graphicaleffects
@@ -164,11 +167,11 @@ swappy
 swaybg
 swaylock
 syncthing
-telegram-desktop
 tig
 tldr
 tmux
 toilet
+torchvision
 traceroute
 ttf-daddytime-mono-nerd
 ttf-dejavu
@@ -193,7 +196,6 @@ wine
 wofi
 wqy-microhei
 xclip
-xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-desktop-portal-wlr
 xf86-video-vesa
