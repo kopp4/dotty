@@ -15,6 +15,7 @@ bash-language-server
 bat
 bc
 bind
+blanket
 blueberry
 bluez
 bluez-tools
@@ -37,8 +38,10 @@ dnsmasq
 docker
 dunst
 earlyoom
+easyeffects
 edk2-ovmf
 efibootmgr
+electrum
 enca
 espeak-ng
 fcitx5-chinese-addons
@@ -90,7 +93,6 @@ linux-lts-headers
 lsof
 lua-language-server
 lutris
-mariadb
 mesa
 mpd
 mpv
@@ -98,7 +100,6 @@ nautilus
 ncdu
 ncmpcpp
 neofetch
-neomutt
 netctl
 networkmanager
 newsboat
@@ -143,13 +144,11 @@ python-scikit-build
 python-scipy
 python-setuptools-scm
 python-socksio
-python-torchvision-cuda
 qbittorrent
 qrencode
 qt5-graphicaleffects
 qt5-wayland
 qt5ct
-rclone
 reflector
 ripgrep
 rofimoji
@@ -158,6 +157,7 @@ rust-analyzer
 rustup
 sassc
 scrapy
+scrcpy
 shfmt
 slurp
 sof-firmware
@@ -171,7 +171,6 @@ tig
 tldr
 tmux
 toilet
-torchvision
 traceroute
 ttf-daddytime-mono-nerd
 ttf-dejavu

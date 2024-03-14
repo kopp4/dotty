@@ -9,7 +9,7 @@ video/mp2t=mpv.desktop
 video/x-flv=mpv.desktop
 inode/directory=nautilus.desktop
 image/png=swappy.desktop
-image/jpeg=swappy.desktop
+image/jpeg=nsxiv.desktop
 image/jpg=nsxiv.desktop
 font/woff=org.fontforge.FontForge.desktop
 font/ttf=org.fontforge.FontForge.desktop
@@ -65,6 +65,7 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.
 image/webp=nsxiv.desktop
 x-scheme-handler/discord-1176718791388975124=discord-1176718791388975124.desktop
 application/msword=libreoffice-writer.desktop
+application/xhtml+xml=firefox.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
@@ -77,4 +78,5 @@ application/vnd.openxmlformats-officedocument.wordprocessingml.document=abiword.
 image/webp=nsxiv.desktop;
 image/png=google-chrome.desktop;swappy.desktop;
 application/msword=libreoffice-writer.desktop;
-image/jpeg=swappy.desktop;
+image/jpeg=swappy.desktop;nsxiv.desktop;
+application/xhtml+xml=firefox.desktop;

@@ -2,20 +2,19 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 # I shall nighty nighty
 30 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 34 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
-
+# I shall nighty nighty
 55 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 59 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 
-# todolist and caldav sync 
+# todolist and caldav sync
 20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
 20 12 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"
-
-29 22 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "hi" "it's time for anki babe <3"
-
-20 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /home/koppa/CS/script/karma.sh 
-
+# todolist and caldav sync 
 00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) vdirsyncer sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "CalDav Synced" "Your calendar is up to date!"
 00 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli sync && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Todoist Synced" "Your todolist is up to date!"
+
+# kill firefox at 7pm -- get studying
+00 19 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) killall firefox && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Working" "幸せが来るはずです"
 
 # 55 20 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) todoist-cli karma > /home/koppa/CS/karma && /usr/bin/awk 'NR==1{p=$0} NR>1{if($0>p) XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Awesome!" "Your Karma is increasing"; else XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "Noo!" "Your Karma is decreasing"' /home/koppa/CS/karma
 
@@ -29,3 +28,12 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 # wallpaper
 0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal -t 5000 "Wallpaper updated!" "$(python .config/shell/quote.py)"
 
+# ddl reminding (pull in random order)
+2 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 06/08/2024 社会情報学)"
+1 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 07/06/2024 京大大学院出願)"
+* 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 14/05/2024 入試説明会)"
+
+
+29 22 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "hi" "it's time for anki babe <3"
+
+20 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) /home/koppa/CS/script/karma.sh 

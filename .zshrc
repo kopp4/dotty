@@ -26,9 +26,9 @@ HIST_STAMPS="yyyy/mm/dd"
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+# export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 # Path to your oh-my-zsh installation.
-export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore-vcs -g "!{node_modules,.git,.idea,target,dist,out-tsc}"'
+# export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore-vcs -g "!{node_modules,.git,.idea,target,dist,out-tsc}"'
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -95,7 +95,8 @@ setopt auto_cd
 
 # bindkey -s '\e\e' '\C-asudo \C-e'
 bindkey -s '\e\e' '^[Isudo ^[A'
-bindkey -s '^f' 'xdg-open "$(fzf)" \n'
+bindkey -s '^f' 'fzf --print0 | xargs -0 -o xdg-open \n'
+# 'xdg-open "$(fzf)" \n'
 bindkey -s "^[l" "ls\n"
 
 eval "$(starship init zsh)"
