@@ -61,3 +61,4 @@ map f toggle_fullscreen
 map [fullscreen] f toggle_fullscreen
 
 set selection-clipboard clipboard
+map H feedkeys ":exec sh -c \"cat ~/.local/share/zathura/history | grep -Po '\[\K[^\]]*' | wofi --show dmenu -W 60% -H 60% | xargs zathura\""
