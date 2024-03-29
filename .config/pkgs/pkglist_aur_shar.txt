@@ -9,6 +9,7 @@ cython-git
 dingtalk-bin
 dirsearch
 discord_arch_electron
+dmg2img
 downgrade
 dupeguru
 electron-fiddle-bin
@@ -22,10 +23,11 @@ goldendict-webengine-pr-git
 google-chrome
 gtk
 hunspell-ja-git
-hyprland-nvidia
 hyprpicker-git
+jdim-git
 kodi-addon-pvr-iptvsimple
 kodi-standalone-service
+libva-nvidia-driver-git
 light-git
 looking-glass
 ly-git
@@ -37,14 +39,12 @@ nitch
 nnn-git
 noto-fonts-sc
 nsz-git
-nvidia-vaapi-driver-git
 nvim-packer-git
 opkg
 orchis-theme
 osu-lazer-bin
 otf-xits
 package-query
-packettracer
 pcsx2-latest-bin
 pkg2zip
 planify
@@ -53,8 +53,7 @@ prismlauncher-qt5-bin
 pyradio-git
 python-bilibili-api-python
 python-imageio
-python2
-python2-numpy
+python-sip4
 qrcp-bin
 rofi-git
 rpcs3-bin
@@ -70,7 +69,7 @@ sqlmap-bin
 sway-audio-idle-inhibit-git
 swayidle-git
 swaylockd
-swww-git
+swww
 tatsumato
 teamviewer
 telegram-desktop-bin
@@ -80,6 +79,7 @@ translate-shell-git
 ttf-cm-unicode
 ttf-foundertype-sc-fonts
 ttf-wps-fonts
+tuxguitar-bin
 typst-bin
 unified-remote-server
 vita3k-bin

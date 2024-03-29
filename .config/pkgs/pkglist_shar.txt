@@ -33,7 +33,6 @@ dhcpcd
 dictd
 dkms
 dmenu
-dmg2img
 dnsmasq
 docker
 dunst
@@ -57,6 +56,7 @@ fzf
 gifsicle
 git
 glfw
+glib2-docs
 gnome-disk-utility
 gnu-netcat
 go
@@ -65,6 +65,7 @@ grim
 grub
 gutenprint
 hunspell-en_us
+hyprland
 inetutils
 intel-ucode
 iptables-nft
@@ -172,6 +173,7 @@ tldr
 tmux
 toilet
 traceroute
+tree
 ttf-daddytime-mono-nerd
 ttf-dejavu
 ttf-dejavu-nerd
