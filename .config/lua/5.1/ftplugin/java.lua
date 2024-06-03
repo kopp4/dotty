@@ -1,5 +1,4 @@
--- require 'rcfiles.plugins.nvim_jdtls-settings'
-vim.g.java_highlight_all = 1
+-- vim.g.java_highlight_all = 1
 
 --require 'rcfiles.plugins.nvim_jdtls-settings'
 -- Had to move this here because it was not loading on new files.
@@ -16,9 +15,10 @@ local config = {
   -- See: https://github.com/eclipse/eclipse.jdt.ls#running-from-the-command-line
   cmd = {
 
-      '/usr/bin/jdtls'
+    '/usr/bin/jdtls'
+    -- '/home/matsu/Tools/jdtls/bin/jdtls'
 
-    --'java', -- or '/path/to/java11_or_newer/bin/java'
+    -- 'java', -- or '/path/to/java11_or_newer/bin/java'
     --        -- depends on if `java` is in your $PATH env variable and if it points to the right version.
 
     --'-Declipse.application=org.eclipse.jdt.ls.core.id1',
@@ -34,7 +34,7 @@ local config = {
     ----'--add-modules', 'jdk.incubator.vector',
 
     ---- 💀
-    ---- '-jar', vim.fn.glob('/home/matsu/Tools/eclipse.jdt.ls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_*.jar'),
+    -- '-jar', vim.fn.glob('/home/matsu/Tools/jdtls/org.eclipse.jdt.ls.product/target/repository/plugins/org.eclipse.equinox.launcher_*.jar'),
     --     -- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^                                       ^^^^^^^^^^^^^^
     --     -- Must point to the                                                     Change this to
     --     -- eclipse.jdt.ls installation                                           the actual version
@@ -65,16 +65,8 @@ local config = {
         configuration = {
             -- runtimes = {
             --     {
-            --         name = "JavaSE-11",
-            --         path = "/usr/lib/jvm/java-11-openjdk"
-            --     },
-            --     {
-            --         name = "JavaSE-17",
-            --         path = "/home/matsu/Tools/jdk-17"
-            --     },
-            --     {
-            --         name = "JavaSE-19",
-            --         path = "/home/matsu/Tools/jdk-19"
+            --         name = "JavaSE-21",
+            --         path = "/home/matsu/.sdkman/candidates/java/current"
             --     }
             -- }
         },
@@ -180,8 +172,11 @@ vim.cmd([[
 vim.api.nvim_set_keymap("n", "<Leader>oi", "<cmd>lua require'jdtls'.organize_imports()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("v", "<Leader>em", "<cmd>lua require'jdtls'.extract_method(true)<CR>", { noremap = true })
 
-vim.api.nvim_set_keymap("n", "<Leader>ev", "<cmd>lua require'jdtls'.extract_variable(<CR>", { noremap = true })
+vim.api.nvim_set_keymap("n", "<Leader>ev", "<cmd>lua require'jdtls'.extract_variable()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("v", "<Leader>ev", "<cmd>lua require'jdtls'.extract_variable(true)<CR>", { noremap = true })
+
+vim.api.nvim_set_keymap("n", "<Leader>ea", "<cmd>lua require'jdtls'.extract_variable_all()<CR>", { noremap = true })
+vim.api.nvim_set_keymap("v", "<Leader>ea", "<cmd>lua require'jdtls'.extract_variable_all(true)<CR>", { noremap = true })
 
 vim.api.nvim_set_keymap("n", "<Leader>ec", "<cmd>lua require'jdtls'.extract_constant()<CR>", { noremap = true })
 vim.api.nvim_set_keymap("v", "<Leader>ec", "<cmd>lua require'jdtls'.extract_constant(true)<CR>", { noremap = true })

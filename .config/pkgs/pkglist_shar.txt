@@ -25,6 +25,7 @@ cdrtools
 clang
 clash
 cliphist
+code
 cronie
 cups
 cxxopts
@@ -65,6 +66,7 @@ gparted
 grim
 grub
 gutenprint
+htop
 hunspell-en_us
 hunspell-ja-git
 hyprland
@@ -191,6 +193,7 @@ ttf-fantasque-nerd
 ttf-nerd-fonts-symbols-common
 typescript-language-server
 typst
+ufw
 unrar
 unzip
 vdirsyncer

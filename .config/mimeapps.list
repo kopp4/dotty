@@ -67,6 +67,7 @@ x-scheme-handler/discord-1176718791388975124=discord-1176718791388975124.desktop
 application/msword=libreoffice-writer.desktop
 application/xhtml+xml=firefox.desktop
 x-scheme-handler/discord-424004941485572097=discord-424004941485572097.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
 
 [Added Associations]
 application/pdf=sioyek.desktop;org.pwmt.zathura-pdf-mupdf.desktop;

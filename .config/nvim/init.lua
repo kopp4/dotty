@@ -1,10 +1,5 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
-require 'lspconfig'.clangd.setup{}
-require 'lspconfig'.pyright.setup{}
-require 'lspconfig'.jdtls.setup{}
-require 'lspconfig'.rust_analyzer.setup{}
--- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
 
 require 'rcfiles.plugins'
 require 'rcfiles.plugins.compe'
@@ -15,6 +10,7 @@ require 'rcfiles.plugins.telescope-settings'
 require 'rcfiles.plugins.treesitter-settings'
 require 'rcfiles.plugins.nvim_dap-settings'
 require 'rcfiles.plugins.nvim-tree-settings'
+require 'rcfiles.plugins.dap-vscode'
 
 require 'rcfiles.tabline'.Setup()
 require 'rcfiles.opts'
@@ -29,15 +25,11 @@ vim.cmd([[
     hi! MatchParen cterm=NONE,bold gui=NONE,bold  guibg=#87c095 guifg=NONE
 
     set encoding=UTF-8
-    " set foldmethod=indent
-    set clipboard=unnamedplus
-    set smartcase
-    " share marks through sessions
-    set viminfo='1000,f1
+
     let g:AutoPairsShortcutToggle = ''
     let g:AutoPairsShortcutBackInsert = '<M-0>'
-    " compile every [0-9]*\.cpp file after saved
-    autocmd BufWritePost [0-9]*\.cpp !g++ -Wall -Wextra -Werror % && cat % | wl-copy
+
+
     "  ______                         _   _   _             
     " |  ____|                       | | | | (_)            
     " | |__ ___  _ __ _ __ ___   __ _| |_| |_ _ _ __   __ _ 
@@ -49,17 +41,17 @@ vim.cmd([[
     let useformatting=1
     function! DoFormat()
         if has("nvim") && g:useformatting
-            lua vim.lsp.buf.formatting_sync(nil, 1000)
+            lua vim.lsp.buf.format(nil, 1000)
         endif
     endfunction
 
     if useformatting
         "autocmd BufWritePre *.java  call DoFormat()
-        "autocmd BufWritePre *.md call DoFormat()
-        "autocmd BufWritePre *.js call DoFormat()
-        "autocmd BufWritePre *.ts call DoFormat()
-        "autocmd BufWritePre *.clj call DoFormat()
-        "autocmd BufWritePre *.html Neoformat
+        autocmd BufWritePre *.md call DoFormat()
+        autocmd BufWritePre *.js call DoFormat()
+        autocmd BufWritePre *.ts call DoFormat()
+        autocmd BufWritePre *.clj call DoFormat()
+        autocmd BufWritePre *.html Neoformat
     endif
 
 
@@ -127,5 +119,12 @@ vim.cmd([[
     noremap <Leader>cs {v}:Commentary<CR>
     " Maximizer
     nnoremap <Leader>fs :MaximizerToggle<CR>
+
+    " Since I can't learn other than ISO layout
+    nnoremap ' %
+    vnoremap ' %
+
+    " Reload config 
+    nnoremap <Leader>rc :source ~/dotfiles/init.lua<CR>
 ]])
 require 'rcfiles.statusline'

@@ -46,6 +46,7 @@ python-bilibili-api-python
 qbittorrent-enhanced
 qrcp-bin
 rofi-git
+rpcs3-bin
 ryujinx-bin
 sioyek-appimage
 socat-git
@@ -69,6 +70,7 @@ unified-remote-server
 universal-android-debloater
 vita3k-bin
 webcord
+wireshark-git
 wl-clip-persist-git
 wl-clipboard-git
 wps-office-cn

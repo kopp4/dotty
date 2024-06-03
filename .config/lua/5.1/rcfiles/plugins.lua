@@ -1,33 +1,8 @@
 vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
-
- -- install without yarn or npm
- --
-    use({
-        "iamcco/markdown-preview.nvim",
-        run = function() vim.fn["mkdp#util#install"]() end,
-    })
-
-    use 'tpope/vim-obsession'
-
-    use 'wakatime/vim-wakatime'
-
-    use 'elkowar/yuck.vim'
-
-    use 'gpanders/nvim-parinfer'
-
-    use 'samirettali/shebang.nvim'
-
-    use { "catppuccin/nvim", as = "catppuccin" }
-
-    -- use {
-  -- "startup-nvim/startup.nvim",
-  -- requires = {"nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim"},
-  -- config = function()
-    -- require"startup".setup()
-  -- end
--- }
+    -- tmp 
+    use { "nvim-neotest/nvim-nio" }
 
     -- Packer can manage itself
     use 'wbthomason/packer.nvim'
@@ -38,7 +13,6 @@ return require('packer').startup(function(use)
     use {
         'nvim-treesitter/nvim-treesitter',
         run = ':TSUpdate',
-        commit = '3096e637c8d78fd9e9078f752dce2da2cc6d531e'
     }
     use 'nvim-treesitter/playground'
 
@@ -49,13 +23,7 @@ return require('packer').startup(function(use)
     use 'szw/vim-maximizer'
 
     -- LSP
-
-    use {
-    "williamboman/mason.nvim",
-    "williamboman/mason-lspconfig.nvim",
-    "neovim/nvim-lspconfig",
-}
-
+    use 'neovim/nvim-lspconfig'
     use 'nvim-lua/lsp-status.nvim'
     use 'mfussenegger/nvim-jdtls'
 
@@ -70,10 +38,22 @@ return require('packer').startup(function(use)
     use 'L3MON4D3/LuaSnip'
     use 'rafamadriz/friendly-snippets'
     use 'saadparwaiz1/cmp_luasnip'
+    use {
+      'kkoomen/vim-doge',
+      run = ':call doge#install()'
+    }
 
     -- Debugging
     use 'mfussenegger/nvim-dap'
     use 'rcarriga/nvim-dap-ui'
+
+    -- Debugging JS / Node
+    use { "mxsdev/nvim-dap-vscode-js", requires = {"mfussenegger/nvim-dap"} }
+    use {
+      "microsoft/vscode-js-debug",
+      opt = true,
+      run = "npm install --legacy-peer-deps && npx gulp vsDebugServerBundle && mv dist out"
+    }
 
     -- Tellyscope
     use 'nvim-lua/popup.nvim'
@@ -82,7 +62,6 @@ return require('packer').startup(function(use)
     use 'nvim-telescope/telescope-ui-select.nvim'
 
     -- Theming
-    -- use 'ryanoasis/vim-devicons'
     use 'kyazdani42/nvim-web-devicons'
     use 'kyazdani42/nvim-tree.lua'
 
@@ -93,7 +72,7 @@ return require('packer').startup(function(use)
 
     -- Clojure
     -- Find out why this is being enabled in lua files
-    --use 'Olical/conjure'
+    use 'Olical/conjure'
     use 'jiangmiao/auto-pairs'
 
     -- HTTP
@@ -101,6 +80,27 @@ return require('packer').startup(function(use)
 
     --Random
     use 'tpope/vim-commentary'
+    use {
+      "folke/zen-mode.nvim",
+      config = function()
+        require("zen-mode").setup {
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+          window = {
+              backdrop = 1,
+              width = 200,
+          },
+          plugins = {
+              alacritty = {
+                  enabled = false,
+                  font = "20", -- font size
+              },
+          }
+        }
+      end
+    }
 
+    -- use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install", setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
 end)

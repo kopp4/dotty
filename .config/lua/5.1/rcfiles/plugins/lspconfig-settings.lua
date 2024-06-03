@@ -17,7 +17,7 @@ end
 --vim.cmd [[autocmd CursorHold,CursorHoldI * lua vim.diagnostic.open_float(nil, {focus=false})]]
 
 
---vim.lsp.set_log_level("trace")
+-- vim.lsp.set_log_level("trace")
 
 local lsp_status = require('lsp-status')
 lsp_status.config({
@@ -41,11 +41,6 @@ end
 
 local lspconfig = require('lspconfig')
 
-require 'lspconfig'.bashls.setup{}
--- require 'lspconfig'.clangd.setup{}
--- require 'lspconfig'.pyright.setup{}
--- require 'lspconfig'.cssls.setup{}
--- lspconfig.bashls.setup{ on_attach=on_attach_vim, capabilities = capabilities }
 lspconfig.tsserver.setup{ on_attach=on_attach_vim, capabilities = capabilities }
 lspconfig.jsonls.setup{ on_attach=on_attach_vim, capabilities = capabilities }
 lspconfig.html.setup{ on_attach=on_attach_vim, capabilities = capabilities }
@@ -64,4 +59,4 @@ lspconfig.lua_ls.setup {
     }
 }
 lspconfig.rust_analyzer.setup{ on_attach=on_attach_vim, capabilities = capabilities }
--- lspconfig.custom_elements_languageserver.setup { on_attach=on_attach_vim, capabilities = capabilities }
+lspconfig.custom_elements_languageserver.setup { on_attach=on_attach_vim, capabilities = capabilities }

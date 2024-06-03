@@ -26,12 +26,12 @@ XDG_RUNTIME_DIR=/run/user/$(id -u)
 05 * * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal "hi" "It's $(XDG_RUNTIME_DIR=/run/user/$(id -u) date +%H) now"
 
 # wallpaper
-# 0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal -t 5000 "Wallpaper updated!" "$(python .config/shell/quote.py)"
+0 */2 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) bash /home/koppa/.config/hypr/themes/apatheia/eww/scripts/wallpaper_shuffle && XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u normal -t 5000 "Wallpaper updated!" "$(python .config/shell/quote.py)"
 
 # ddl reminding (pull in random order)
 2 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 06/08/2024 社会情報学)"
 1 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 07/06/2024 京大大学院出願)"
-0 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 14/05/2024 入試説明会)"
+0 18 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "$(python /home/koppa/.config/hypr/themes/apatheia/eww/scripts/countdown.py 11/05/2024 入試説明会)"
 
 
 29 22 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "hi" "it's time for anki babe <3"
