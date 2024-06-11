@@ -1,11 +1,19 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+require 'lspconfig'.clangd.setup{}
+require 'lspconfig'.pyright.setup{}
+-- require 'lspconfig'.jdtls.setup{}
+-- require 'lspconfig'.rust_analyzer.setup{}
+-- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
+-- require 'lspconfig'.custom_elements_ls.setup{}
+
 
 require 'rcfiles.plugins'
 require 'rcfiles.plugins.compe'
 require 'rcfiles.plugins.snippets'
 require 'rcfiles.plugins.lspconfig-settings'
-require 'rcfiles.plugins.rest-nvim-settings'
+
+
 require 'rcfiles.plugins.telescope-settings'
 require 'rcfiles.plugins.treesitter-settings'
 require 'rcfiles.plugins.nvim_dap-settings'
@@ -25,11 +33,15 @@ vim.cmd([[
     hi! MatchParen cterm=NONE,bold gui=NONE,bold  guibg=#87c095 guifg=NONE
 
     set encoding=UTF-8
-
+    " set foldmethod=indent
+    set clipboard=unnamedplus
+    set smartcase
+    " share marks through sessions
+    set viminfo='1000,f1
     let g:AutoPairsShortcutToggle = ''
     let g:AutoPairsShortcutBackInsert = '<M-0>'
-
-
+    " compile every [0-9]*\.cpp file after saved
+    autocmd BufWritePost [0-9]*\.cpp !g++ -Wall -Wextra -Werror % && cat % | wl-copy
     "  ______                         _   _   _             
     " |  ____|                       | | | | (_)            
     " | |__ ___  _ __ _ __ ___   __ _| |_| |_ _ _ __   __ _ 

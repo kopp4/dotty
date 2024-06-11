@@ -76,7 +76,7 @@ return require('packer').startup(function(use)
     use 'jiangmiao/auto-pairs'
 
     -- HTTP
-    use 'NTBBloodbath/rest.nvim'
+    -- use 'NTBBloodbath/rest.nvim'
 
     --Random
     use 'tpope/vim-commentary'

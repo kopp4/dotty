@@ -147,6 +147,7 @@ python-pip
 python-pipenv
 python-pipx
 python-pyalsa
+python-pylint
 python-pytest
 python-pyusb
 python-qrcode

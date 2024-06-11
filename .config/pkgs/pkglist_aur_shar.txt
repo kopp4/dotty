@@ -19,12 +19,17 @@ geticons
 goldendict-webengine-pr-git
 google-chrome
 gtk
+hypnotix
 hyprpicker-git
 jdim-git
 linuxqq
 looking-glass
+lua-xml2lua
 ly-git
+neovim-cmp
+neovim-cmp-git
 neovim-jdtls-git
+neovim-luasnip-git
 netstandard-targeting-pack-bin
 networkmanager-dmenu-git
 nitch
