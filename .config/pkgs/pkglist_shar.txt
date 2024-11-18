@@ -100,6 +100,7 @@ lutris
 mesa
 mpd
 mpv
+mpv-mpvacious
 mycli
 mysql
 nasm
