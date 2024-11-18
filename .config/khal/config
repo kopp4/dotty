@@ -7,11 +7,11 @@ longdatetimeformat = %Y-%m-%d %H:%M
 
 [calendars]
 
-# [[0sum]]
-# path = ~/.config/vdirsyncer/calendars/NDg5NzUwODE1QHVzZXJzLmRpbmd0YWxrLmNvbXxnMjA1MjM4MzY1M18xNjk2MTcxMjAzNDcx
-# color = dark red
-# priority = 9
-# readonly = true
+[[0sum]]
+  path = ~/.config/vdirsyncer/calendars/NDg5NzUwODE1QHVzZXJzLmRpbmd0YWxrLmNvbXxnMjA1MjM4MzY1M18xNjk2MTcxMjAzNDcx
+  color = dark red
+  priority = 9
+  readonly = true
 [[informatics]]
   path = ~/.config/vdirsyncer/calendars/NDg5NzUwODE1QHVzZXJzLmRpbmd0YWxrLmNvbXxnNDg5NzUwODE1XzE2OTY0OTM0NDU1MDY
   color = dark red

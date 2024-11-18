@@ -1,7 +1,7 @@
 XDG_RUNTIME_DIR=/run/user/$(id -u)
 # I shall nighty nighty
-30 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
-34 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+40 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
+44 23 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 # I shall nighty nighty
 55 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 5 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed
 59 01 * * * XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "Scheduled Shutdown" "System is going to shuwdown in 1 min" && XDG_RUNTIME_DIR=/run/user/$(id -u) /sbin/canberra-gtk-play -i alarm-clock-elapsed

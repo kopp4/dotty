@@ -7,10 +7,6 @@ if [ -f ~/.config/shell/.aliases ]; then
     source ~/.config/shell/.aliases
 fi
 
-if [ -f ~/.secrets ]; then
-    source ~/.secrets
-fi
-
 if [ -f ~/.config/shell/countdown ]; then
     source ~/.config/shell/countdown
 fi
@@ -121,6 +117,8 @@ export NNN_OPTS="deH"
 # export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
 # export RUSTUP_HOME="/var/cache/rustup"
 # export CARGO_HOME="/var/cache/rustup"
-echo "Cleanse Thy Earthly Vessel"
-echo "Prove my that essay is the best way to get authentic and bleeding-edge technology or knowledge"
-echo "チョコパンわしの大好物"
+# echo "Cleanse Thy Earthly Vessel"
+# echo "Prove my that essay is the best way to get authentic and bleeding-edge technology or knowledge"
+# echo "チョコパンわしの大好物"
+
+PATH="$HOME/.config/shell/bin:$PATH"
