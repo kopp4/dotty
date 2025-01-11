@@ -35,7 +35,9 @@ vim.cmd([[
     set encoding=UTF-8
     " set foldmethod=indent
     set clipboard=unnamedplus
-    set smartcase
+    "set smartcase
+    set ignorecase
+
     " share marks through sessions
     set viminfo='1000,f1
     let g:AutoPairsShortcutToggle = ''

@@ -2,6 +2,7 @@ acpi
 adobe-source-han-sans-jp-fonts
 alsa-utils
 amd-ucode
+android-file-transfer
 ant
 aria2
 asar
@@ -43,7 +44,6 @@ edk2-ovmf
 efibootmgr
 electron30
 enca
-espeak-ng
 fcitx5-chinese-addons
 fcitx5-configtool
 fcitx5-mozc
@@ -107,6 +107,7 @@ nasm
 nautilus
 ncdu
 ncmpcpp
+ncurses5-compat-libs
 neofetch
 netctl
 networkmanager
@@ -135,6 +136,7 @@ papirus-icon-theme
 pavucontrol
 pipewire-pulse
 playerctl
+prismlauncher
 pulseaudio-alsa
 pyenv
 pyright

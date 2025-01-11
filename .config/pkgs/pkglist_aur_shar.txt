@@ -13,6 +13,7 @@ eww-wayland
 fcitx5-gtk-git
 fcitx5-input-support
 fcitx5-skin-fluentdark-git
+flareget
 freetype2-wps
 geticons
 goldendict-webengine-pr-git
@@ -25,11 +26,11 @@ kodi-standalone-service
 looking-glass
 lua-xml2lua
 ly-git
-ncurses5-compat-libs
 neovim-cmp
 neovim-cmp-git
 neovim-jdtls-git
 neovim-luasnip-git
+nerd-dictation-git
 netstandard-targeting-pack-bin
 networkmanager-dmenu-git
 nitch
@@ -43,10 +44,7 @@ otf-xits
 package-query
 pacmixer
 pcsx2-latest-bin
-planify
 pokemon-colorscripts-git
-prismlauncher-qt5-bin
-protonhax
 python-apscheduler
 python-bilibili-api-python
 python-holidays
@@ -69,7 +67,6 @@ tatsumato
 telegram-desktop-bin
 tmux-plugin-manager
 todoist-git
-translate-shell-git
 ttf-cm-unicode
 ttf-foundertype-sc-fonts
 ttf-wps-fonts
@@ -81,8 +78,6 @@ wl-clip-persist-git
 wl-clipboard-git
 wps-office-cn
 wps-office-mui-zh-cn
-xmind
 xpad-dkms-git
 yay-bin
 z-library-bin
-zaread-git
