@@ -51,12 +51,12 @@ alias \
 
 # alias dot='git --git-dir=${XDG_CONFIG_HOME:-$HOME/.config}/dotfiles/ --work-tree=$HOME'
 alias \
-    nnn='~/bin/nnn -de' \
     nb='newsboat' \
     dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME' \
     pacclean="remorphans && sudo pacman -Sc && trimlogs" \
     lgit="lazygit" \
 
+    # nnn='~/bin/nnn -de' \
 
 # Record selected region of the screen in gif codec
 recordgif() {

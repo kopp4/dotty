@@ -49,14 +49,17 @@ export TMUX_CONFIG=~/.config/tmux/.tmux.conf
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && source ~/.autojump/etc/profile.d/autojump.sh
+
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
 autoload -U compinit && compinit -u
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 # source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # Its pokemon why the hell not?
-pokemon-colorscripts -r
+# pokemon-colorscripts -r
 # calendar
-khal calendar
+# khal calendar
 # TTY
 if [ $(tput colors) != "256" ]; then
     exec bash -l
@@ -93,19 +96,46 @@ setopt auto_cd
 bindkey -s '\e\e' '^[Isudo ^[A'
 bindkey -s '^f' 'fzf --print0 | xargs -0 -o xdg-open \n'
 # 'xdg-open "$(fzf)" \n'
-bindkey -s "^[l" "ls\n"
+bindkey -s "¬" "ls\n"
 
 eval "$(starship init zsh)"
 
 # nnn
-if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
-    source /usr/share/nnn/quitcd/quitcd.bash_zsh
-fi
+n ()
+{
+    # Block nesting of nnn in subshells
+    [ "${NNNLVL:-0}" -eq 0 ] || {
+        echo "nnn is already running"
+        return
+    }
 
-export NNN_FIFO=/tmp/nnn.fifo
+    # The behaviour is set to cd on quit (nnn checks if NNN_TMPFILE is set)
+    # If NNN_TMPFILE is set to a custom path, it must be exported for nnn to
+    # see. To cd on quit only on ^G, remove the "export" and make sure not to
+    # use a custom path, i.e. set NNN_TMPFILE *exactly* as follows:
+    #      NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+    export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
+
+    # Unmask ^Q (, ^V etc.) (if required, see `stty -a`) to Quit nnn
+    # stty start undef
+    # stty stop undef
+    # stty lwrap undef
+    # stty lnext undef
+
+    # The command builtin allows one to alias nnn to n, if desired, without
+    # making an infinitely recursive alias
+    command nnn "$@"
+
+    [ ! -f "$NNN_TMPFILE" ] || {
+        . "$NNN_TMPFILE"
+        rm -f "$NNN_TMPFILE" > /dev/null
+    }
+}
+
+# export NNN_FIFO=/tmp/nnn.fifo
 export NNN_FCOLORS="AAAAE631BBBBCCCCDDDD9999"
 export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview;j:autojump;'
-export NNN_OPTS="deH"
+# export NNN_OPTS="deH"
 # export NNN_OPTS="H"
 
 # Tmux on startup
@@ -119,6 +149,6 @@ export NNN_OPTS="deH"
 # export CARGO_HOME="/var/cache/rustup"
 # echo "Cleanse Thy Earthly Vessel"
 # echo "Prove my that essay is the best way to get authentic and bleeding-edge technology or knowledge"
-# echo "チョコパンわしの大好物"
+echo "チョコパンわしの大好物"
 
 PATH="$HOME/.config/shell/bin:$PATH"
