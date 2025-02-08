@@ -5,7 +5,7 @@ require 'lspconfig'.pyright.setup{}
 -- require 'lspconfig'.jdtls.setup{}
 -- require 'lspconfig'.rust_analyzer.setup{}
 -- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
--- require 'lspconfig'.custom_elements_ls.setup{}
+require 'lspconfig'.custom_elements_ls.setup{}
 
 
 require 'rcfiles.plugins'
@@ -18,7 +18,7 @@ require 'rcfiles.plugins.telescope-settings'
 require 'rcfiles.plugins.treesitter-settings'
 require 'rcfiles.plugins.nvim_dap-settings'
 require 'rcfiles.plugins.nvim-tree-settings'
-require 'rcfiles.plugins.dap-vscode'
+-- require 'rcfiles.plugins.dap-vscode'
 
 require 'rcfiles.tabline'.Setup()
 require 'rcfiles.opts'
