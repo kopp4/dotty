@@ -1,8 +1,10 @@
+# follow yabai installation documentation to use this config
+
 # opens iTerm2
 # alt - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
 alt - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
 cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
-alt - e : open -na Finder
+alt - e : open -a /Applications/Finder.app
 
 # Show system statistics
 # fn + lalt - 1 : "${HOME}"/.config/yabai/scripts/show_cpu.sh
@@ -12,10 +14,10 @@ alt - e : open -na Finder
 # fn + lalt - 5 : "${HOME}"/.config/yabai/scripts/show_song.sh
 
 # Navigation
-alt - h : yabai -m window --focus west
-alt - j : yabai -m window --focus south
-alt - k : yabai -m window --focus north
-alt - l : yabai -m window --focus east
+# alt - h : yabai -m window --focus west
+# alt - j : yabai -m window --focus south
+# alt - k : yabai -m window --focus north
+# alt - l : yabai -m window --focus east
 
 cmd - h : yabai -m window --focus west
 cmd - j : yabai -m window --focus south
@@ -28,6 +30,12 @@ shift + alt - j : yabai -m window --warp south
 shift + alt - k : yabai -m window --warp north
 shift + alt - l : yabai -m window --warp east
 
+
+shift + cmd - h : yabai -m window --warp west
+shift + cmd - j : yabai -m window --warp south
+shift + cmd - k : yabai -m window --warp north
+shift + cmd - l : yabai -m window --warp east
+
 # Move focus container to workspace
 shift + alt - m : yabai -m window --space last; yabai -m space --focus last
 shift + alt - p : yabai -m window --space prev; yabai -m space --focus prev
@@ -36,6 +44,8 @@ shift + alt - 1 : yabai -m window --space 1; yabai -m space --focus 1
 shift + alt - 2 : yabai -m window --space 2; yabai -m space --focus 2
 shift + alt - 3 : yabai -m window --space 3; yabai -m space --focus 3
 shift + alt - 4 : yabai -m window --space 4; yabai -m space --focus 4
+shift + alt - 5 : yabai -m window --space 5; yabai -m space --focus 5
+shift + alt - 6 : yabai -m window --space 6; yabai -m space --focus 6
 
 # f13 : yabai -m space --focus prev
 # f14 : yabai -m space --focus next
@@ -53,11 +63,15 @@ alt - 1 : yabai -m space --focus 1
 alt - 2 : yabai -m space --focus 2
 alt - 3 : yabai -m space --focus 3
 alt - 4 : yabai -m space --focus 4
+alt - 5 : yabai -m space --focus 5
+alt - 6 : yabai -m space --focus 6
 
 cmd - 1 : yabai -m space --focus 1
 cmd - 2 : yabai -m space --focus 2
 cmd - 3 : yabai -m space --focus 3
 cmd - 4 : yabai -m space --focus 4
+cmd - 5 : yabai -m space --focus 5
+cmd - 6 : yabai -m space --focus 6
 
 
 # Resize windows
@@ -102,8 +116,13 @@ shift + lctrl + alt - r : \
     launchctl kickstart -k "gui/${UID}/homebrew.mxcl.yabai"
 
 # Make window native fullscreen
+# alt - f         : yabai -m space --layout stack
 alt - f         : yabai -m window --toggle zoom-fullscreen
 shift + alt - f : yabai -m window --toggle native-fullscreen
+alt - s         : yabai -m window --toggle float
+cmd - s         : yabai -m window --toggle float
+alt - t         : yabai -m window --toggle sticky
+cmd - t         : yabai -m window --toggle sticky
 
 
 ctrl + alt - r : yabai --restart-service

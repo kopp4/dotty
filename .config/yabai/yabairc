@@ -4,7 +4,7 @@ yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
 sudo yabai --load-sa
 
 yabai -m config external_bar               all:40:0       \
-                mouse_follows_focus        on            \
+                mouse_follows_focus        on             \
                 window_zoom_persist        off            \
 		        focus_follows_mouse 	   autoraise	  \
                 window_placement           second_child   \
@@ -13,21 +13,22 @@ yabai -m config external_bar               all:40:0       \
                 window_opacity_duration    0.2            \
                 active_window_opacity      1.0            \
                 normal_window_opacity      0.8            \
-                window_animation_duration  0.5            \
+                window_animation_duration  0.2            \
                 window_animation_easing    ease_out_quint \
                 insert_feedback_color      0xff9dd274     \
                 split_ratio                0.50           \
-                auto_balance               off            \
                 mouse_modifier             fn             \
                 mouse_action1              move           \
                 mouse_action2              resize         \
                 mouse_drop_action          swap           \
                                                           \
+                layout                     bsp            \
                 top_padding                0              \
                 bottom_padding             0              \
                 left_padding               0              \
                 right_padding              0              \
-                window_gap                 0
+                window_gap                 5
+                auto_balance               off            \
 
 # Exclude problematic apps from being managed:
 yabai -m rule --add app="^(LuLu|Calculator|Software Update|Dictionary|VLC|System Preferences|System Settings|zoom.us|Photo Booth|Archive Utility|Python|App Store|Steam|Alfred|Activity Monitor|IINA|LINE)$" manage=off
@@ -36,9 +37,9 @@ yabai -m rule --add label="Safari" app="^Safari$" title="^(General|(Tab|Password
 yabai -m rule --add label="About This Mac" app="System Information" title="About This Mac" manage=off
 yabai -m rule --add label="Select file to save to" app="^Inkscape$" title="Select file to save to" manage=off
 
-yabai -m config layout bsp
 
-yabai -m config --space 4 layout float
+# yabai -m config --space 3 layout stack
+# yabai -m config --space 4 layout float
 
 # ...
 # yabai -m config menubar_opacity 0.0

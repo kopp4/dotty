@@ -23,6 +23,9 @@ cd "$(dirname "$(spicetify -c)")/Themes/Dribbblish"
 spicetify config current_theme Dribbblish color_scheme base
 spicetify config inject_css 1 replace_colors 1 overwrite_assets 1 inject_theme_js 1
 spicetify apply
+
+# nnn plugins
+sh -c "$(curl -Ls https://raw.githubusercontent.com/jarun/nnn/master/plugins/getplugs)"
 ```
 
 # TODOs

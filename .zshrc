@@ -56,8 +56,6 @@ autoload -U compinit && compinit -u
 
 source <(fzf --zsh)
 # source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Its pokemon why the hell not?
-# pokemon-colorscripts -r
 # calendar
 # khal calendar
 # TTY
@@ -149,6 +147,6 @@ export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview;j:au
 # export CARGO_HOME="/var/cache/rustup"
 # echo "Cleanse Thy Earthly Vessel"
 # echo "Prove my that essay is the best way to get authentic and bleeding-edge technology or knowledge"
-echo "チョコパンわしの大好物"
+# echo "チョコパンわしの大好物"
 
 PATH="$HOME/.config/shell/bin:$PATH"
