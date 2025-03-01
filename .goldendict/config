@@ -1,0 +1,220 @@
+<config>
+ <paths>
+  <path recursive="1">/Users/koppa/etc/Dictionary</path>
+ </paths>
+ <sounddirs/>
+ <dictionaryOrder name="" id="0">
+  <dictionary name="（大修館）明鏡国語辞典［第三版］">e7792bd7a6f7d1fd31e3caced4aeafba</dictionary>
+  <dictionary name="新明解国語辞典　第八版">a48993e298e11a27ed9d6cc867f37578</dictionary>
+  <dictionary name="LDOCE5++ En-Cn V2.15">b55a19f51647b9f7ed4e49046a31fa74</dictionary>
+  <dictionary name="(The Japan Times) A Dictionary of Japanese Grammar [Complete Edition]">945b659dc933932d297a24587a4e4e89</dictionary>
+  <dictionary name="(Weblio) 日本語活用形辞書">58db152c44bf1c5eb0c6d3acbbb13e8c</dictionary>
+  <dictionary name="（くろしお出版）日本語文型辞典［英語版］">7b43d095ad3922bf97a2bfbfce703b7e</dictionary>
+  <dictionary name="（アルク）どんなときどう使う日本語表現文型辞典［新装版］">50470f876bb06f91a6189f61dfee7962</dictionary>
+  <dictionary name="新時代日漢辭典">27722537160875fdd43ecac0ddede46f</dictionary>
+  <dictionary name="小学館日中辞典v3">012a05d1b1cdd5c2fb9985824983863c</dictionary>
+  <dictionary name="MOJi辞書">da59965a8168409e20cc61cc11cbd800</dictionary>
+  <dictionary name="講談社日中">2563ce782f18f08d0b5673c7dacfa092</dictionary>
+  <dictionary name="ACE2">294c1e1b843c127c8ae4fac5ad12538d</dictionary>
+  <dictionary name="研究社新編英和活用大辞典">51bb89efddca6aacf2752159557ab3da</dictionary>
+  <dictionary name="（三省堂）スーパー大辞林 [3.0]">d198370663f087112c4230267ddd4c25</dictionary>
+  <dictionary name="（三省堂）国語辞典［第七版］">9774afd3d2babbfc0d1c0e57cb862ed0</dictionary>
+  <dictionary name="（三省堂）新明解国語辞典［第七版］">f9f6af32bb7225dd73d3f959374ff2ca</dictionary>
+  <dictionary name="（大修館）明鏡国語辞典［第三版］">c2445cbd0544e0617e03cdb1b07ee91b</dictionary>
+  <dictionary name="（小学館）デジタル大辞泉 [2021.10]">8c5dc84a3ca6943cbad736b2b8023afc</dictionary>
+  <dictionary name="（小学館）例解学習国語辞典［第九版］">ceb11a7dc5e47e9744b3a06fb89f1f26</dictionary>
+  <dictionary name="（小学館）日本国語大辞典［第二版］">ae017c4db35a0e8c69fdf81ac3b0763b</dictionary>
+  <dictionary name="（岩波）国語辞典［第六版］">038b77ae962a8b8d1b29848d95742848</dictionary>
+  <dictionary name="（岩波）広辞苑［第七版］">13f2709637d21052547a9a627092b563</dictionary>
+  <dictionary name="（旺文社）国語辞典［第十一版］">c3977589d745d49d3af5d81646b0d3ae</dictionary>
+  <dictionary name="(Lookvise) 日本語俗語辞書">f0ca175deb62ac9bc5f97c9963515ba9</dictionary>
+  <dictionary name="(practical-japanese.com) 実用日本語表現辞典">a7aede42380b69e2b064843d0fc73777</dictionary>
+  <dictionary name="（研究社）日本語表現活用辞典">ceedad889699d82b857882fe4a610a33</dictionary>
+  <dictionary name="(Weblio) 類語辞典">39e43e2ee4000aa404a076cee7ce7ace</dictionary>
+  <dictionary name="（小学館）使い方の分かる類語例解辞典［新装版］">26fee62e687861eeb087a96b966aec0a</dictionary>
+  <dictionary name="（藤本直）類語玉手箱">091f66b7e8d3f27537b6ba7db728d215</dictionary>
+  <dictionary name="(Weblio) 対義語・反対語辞書">380947c5cba0f00b15ddb5ba1be5dcc8</dictionary>
+  <dictionary name="(NHK) 日本語発音アクセント辞典">8bb221e65f5948a03dce815cd8bf096c</dictionary>
+  <dictionary name="Forvo Japanese">7543c257a4aa5c3c9df9db97160edcc4</dictionary>
+  <dictionary name="Longman Dictionary of American English 5th edition">5844bfb23f42bcbbeb4b7db157d0e4a5</dictionary>
+  <dictionary name="The Little Dict">39a7307e92553c221f4adcecf9d7d621</dictionary>
+  <dictionary name="Word Web">5e1db7b3d937f42ce18f34caaf15fdca</dictionary>
+  <dictionary name="English Wikipedia">ae6f89aac7151829681b85f035d54e48</dictionary>
+  <mutedDictionaries/>
+ </dictionaryOrder>
+ <inactiveDictionaries name="" id="0">
+  <mutedDictionaries/>
+ </inactiveDictionaries>
+ <groups nextId="1"/>
+ <hunspell dictionariesPath=""/>
+ <transliteration>
+  <enableRussianTransliteration>0</enableRussianTransliteration>
+  <enableGermanTransliteration>0</enableGermanTransliteration>
+  <enableGreekTransliteration>0</enableGreekTransliteration>
+  <enableBelarusianTransliteration>0</enableBelarusianTransliteration>
+  <chinese>
+   <enable>0</enable>
+   <enableSCToTWConversion>1</enableSCToTWConversion>
+   <enableSCToHKConversion>1</enableSCToHKConversion>
+   <enableTCToSCConversion>1</enableTCToSCConversion>
+  </chinese>
+  <romaji>
+   <enable>0</enable>
+   <enableHepburn>1</enableHepburn>
+   <enableNihonShiki>0</enableNihonShiki>
+   <enableKunreiShiki>0</enableKunreiShiki>
+   <enableHiragana>1</enableHiragana>
+   <enableKatakana>1</enableKatakana>
+  </romaji>
+ </transliteration>
+ <forvo>
+  <enable>0</enable>
+  <apiKey></apiKey>
+  <languageCodes></languageCodes>
+ </forvo>
+ <mediawikis>
+  <mediawiki url="https://en.wikipedia.org/w" name="English Wikipedia" icon="" enabled="1" id="ae6f89aac7151829681b85f035d54e48"/>
+  <mediawiki url="https://en.wiktionary.org/w" name="English Wiktionary" icon="" enabled="0" id="affcf9678e7bfe701c9b071f97eccba3"/>
+  <mediawiki url="https://ru.wikipedia.org/w" name="Russian Wikipedia" icon="" enabled="0" id="8e0c1c2b6821dab8bdba8eb869ca7176"/>
+  <mediawiki url="https://ru.wiktionary.org/w" name="Russian Wiktionary" icon="" enabled="0" id="b09947600ae3902654f8ad4567ae8567"/>
+  <mediawiki url="https://de.wikipedia.org/w" name="German Wikipedia" icon="" enabled="0" id="a8a66331a1242ca2aeb0b4aed361c41d"/>
+  <mediawiki url="https://de.wiktionary.org/w" name="German Wiktionary" icon="" enabled="0" id="21c64bca5ec10ba17ff19f3066bc962a"/>
+  <mediawiki url="https://pt.wikipedia.org/w" name="Portuguese Wikipedia" icon="" enabled="0" id="96957cb2ad73a20c7a1d561fc83c253a"/>
+  <mediawiki url="https://pt.wiktionary.org/w" name="Portuguese Wiktionary" icon="" enabled="0" id="ed4c3929196afdd93cc08b9a903aad6a"/>
+  <mediawiki url="https://el.wikipedia.org/w" name="Greek Wikipedia" icon="" enabled="0" id="f3b4ec8531e52ddf5b10d21e4577a7a2"/>
+  <mediawiki url="https://el.wiktionary.org/w" name="Greek Wiktionary" icon="" enabled="0" id="5d45232075d06e002dea72fe3e137da1"/>
+ </mediawikis>
+ <websites>
+  <website url="https://www.google.com/search?q=define:%GDWORD%&amp;hl=en" inside_iframe="1" name="Google En-En (Oxford)" icon="" enabled="0" id="b88cb2898e634c6638df618528284c2d"/>
+  <website url="https://www.urbandictionary.com/define.php?term=%GDWORD%" inside_iframe="1" name="Urban Dictionary" icon="" enabled="0" id="f376365a0de651fd7505e7e5e683aa45"/>
+  <website url="https://multitran.ru/c/m.exe?CL=1&amp;l1=1&amp;s=%GD1251%" inside_iframe="1" name="Multitran (En)" icon="" enabled="0" id="324ca0306187df7511b26d3847f4b07c"/>
+  <website url="https://www.lingvolive.com/en-us/translate/en-ru/%GDWORD%" inside_iframe="1" name="Lingvo (En-Ru)" icon="" enabled="0" id="924db471b105299c82892067c0f10787"/>
+  <website url="https://michaelis.uol.com.br/moderno-ingles/busca/ingles-portugues-moderno/%GDWORD%/" inside_iframe="1" name="Michaelis (Pt-En)" icon="" enabled="0" id="087a6d65615fb047f4c80eef0a9465db"/>
+ </websites>
+ <dictservers/>
+ <programs>
+  <program name="Festival" type="0" icon="" commandLine="festival --tts" enabled="0" id="428b4c2b905ef568a43d9a16f59559b0"/>
+  <program name="Espeak" type="0" icon="" commandLine="espeak %GDWORD%" enabled="0" id="2cf8b3a60f27e1ac812de0b57c148340"/>
+  <program name="Manpages" type="2" icon="" commandLine="man -a --html=/bin/cat %GDWORD%" enabled="0" id="4f898f7582596cea518c6b0bfdceb8b3"/>
+ </programs>
+ <voiceEngines/>
+ <mutedDictionaries/>
+ <popupMutedDictionaries/>
+ <preferences>
+  <interfaceLanguage></interfaceLanguage>
+  <helpLanguage></helpLanguage>
+  <displayStyle></displayStyle>
+  <newTabsOpenAfterCurrentOne>0</newTabsOpenAfterCurrentOne>
+  <newTabsOpenInBackground>1</newTabsOpenInBackground>
+  <hideSingleTab>0</hideSingleTab>
+  <mruTabOrder>0</mruTabOrder>
+  <hideMenubar>0</hideMenubar>
+  <enableTrayIcon>1</enableTrayIcon>
+  <startToTray>0</startToTray>
+  <closeToTray>1</closeToTray>
+  <autoStart>0</autoStart>
+  <doubleClickTranslates>1</doubleClickTranslates>
+  <selectWordBySingleClick>0</selectWordBySingleClick>
+  <escKeyHidesMainWindow>0</escKeyHidesMainWindow>
+  <zoomFactor>0.9</zoomFactor>
+  <helpZoomFactor>1</helpZoomFactor>
+  <wordsZoomLevel>0</wordsZoomLevel>
+  <enableMainWindowHotkey>1</enableMainWindowHotkey>
+  <mainWindowHotkey>Ctrl+F11, Ctrl+F11</mainWindowHotkey>
+  <enableClipboardHotkey>1</enableClipboardHotkey>
+  <clipboardHotkey>Ctrl+C, Ctrl+C</clipboardHotkey>
+  <enableScanPopup>0</enableScanPopup>
+  <startWithScanPopupOn>1</startWithScanPopupOn>
+  <enableScanPopupModifiers>0</enableScanPopupModifiers>
+  <scanPopupModifiers>0</scanPopupModifiers>
+  <scanPopupAltMode>0</scanPopupAltMode>
+  <scanPopupAltModeSecs>3</scanPopupAltModeSecs>
+  <ignoreOwnClipboardChanges>0</ignoreOwnClipboardChanges>
+  <scanToMainWindow>0</scanToMainWindow>
+  <ignoreDiacritics>0</ignoreDiacritics>
+  <scanPopupUseUIAutomation>1</scanPopupUseUIAutomation>
+  <scanPopupUseIAccessibleEx>1</scanPopupUseIAccessibleEx>
+  <scanPopupUseGDMessage>1</scanPopupUseGDMessage>
+  <scanPopupUnpinnedWindowFlags>0</scanPopupUnpinnedWindowFlags>
+  <scanPopupUnpinnedBypassWMHint>0</scanPopupUnpinnedBypassWMHint>
+  <pronounceOnLoadMain>1</pronounceOnLoadMain>
+  <pronounceOnLoadPopup>1</pronounceOnLoadPopup>
+  <useInternalPlayer>1</useInternalPlayer>
+  <internalPlayerBackend>FFmpeg+libao</internalPlayerBackend>
+  <audioPlaybackProgram>mplayer</audioPlaybackProgram>
+  <alwaysOnTop>0</alwaysOnTop>
+  <searchInDock>1</searchInDock>
+  <historyStoreInterval>0</historyStoreInterval>
+  <favoritesStoreInterval>0</favoritesStoreInterval>
+  <confirmFavoritesDeletion>1</confirmFavoritesDeletion>
+  <proxyserver useSystemProxy="0" enabled="0">
+   <type>0</type>
+   <host></host>
+   <port>3128</port>
+   <user></user>
+   <password></password>
+   <systemProxyUser></systemProxyUser>
+   <systemProxyPassword></systemProxyPassword>
+  </proxyserver>
+  <checkForNewReleases>1</checkForNewReleases>
+  <disallowContentFromOtherSites>0</disallowContentFromOtherSites>
+  <enableWebPlugins>0</enableWebPlugins>
+  <hideGoldenDictHeader>0</hideGoldenDictHeader>
+  <maxNetworkCacheSize>50</maxNetworkCacheSize>
+  <clearNetworkCacheOnExit>1</clearNetworkCacheOnExit>
+  <maxStringsInHistory>99999</maxStringsInHistory>
+  <storeHistory>1</storeHistory>
+  <alwaysExpandOptionalParts>0</alwaysExpandOptionalParts>
+  <addonStyle></addonStyle>
+  <collapseBigArticles>0</collapseBigArticles>
+  <articleSizeLimit>2000</articleSizeLimit>
+  <limitInputPhraseLength>0</limitInputPhraseLength>
+  <inputPhraseLengthLimit>1000</inputPhraseLengthLimit>
+  <maxDictionaryRefsInContextMenu>20</maxDictionaryRefsInContextMenu>
+  <trackClipboardChanges>0</trackClipboardChanges>
+  <synonymSearchEnabled>1</synonymSearchEnabled>
+  <fullTextSearch>
+   <searchMode>0</searchMode>
+   <matchCase>0</matchCase>
+   <maxArticlesPerDictionary>100</maxArticlesPerDictionary>
+   <maxDistanceBetweenWords>2</maxDistanceBetweenWords>
+   <useMaxArticlesPerDictionary>0</useMaxArticlesPerDictionary>
+   <useMaxDistanceBetweenWords>1</useMaxDistanceBetweenWords>
+   <dialogGeometry></dialogGeometry>
+   <disabledTypes></disabledTypes>
+   <enabled>1</enabled>
+   <ignoreWordsOrder>0</ignoreWordsOrder>
+   <ignoreDiacritics>0</ignoreDiacritics>
+   <maxDictionarySize>0</maxDictionarySize>
+  </fullTextSearch>
+ </preferences>
+ <lastMainGroupId>0</lastMainGroupId>
+ <lastPopupGroupId>0</lastPopupGroupId>
+ <popupWindowState>AAAA/wAAAAH9AAAAAAAAAhMAAAGTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAQAAAAEAAAAaAGQAaQBjAHQAaQBvAG4AYQByAHkAQgBhAHIDAAAAAP////8AAAAAAAAAAA==</popupWindowState>
+ <popupWindowGeometry>AdnQywADAAAAAAEDAAAA9QAAAy8AAAKHAAABAwAAAPUAAAMvAAAChwAAAAAAAAAABegAAAEDAAAA9QAAAy8AAAKH</popupWindowGeometry>
+ <pinPopupWindow>0</pinPopupWindow>
+ <popupWindowAlwaysOnTop>0</popupWindowAlwaysOnTop>
+ <mainWindowState>AAAA/wAAAAH9AAAAAgAAAAAAAADMAAADZvwCAAAAAfsAAAAUAHMAZQBhAHIAYwBoAFAAYQBuAGUBAAAALAAAA2YAAACBAP///wAAAAEAAACNAAADZvwCAAAAA/sAAAASAGQAaQBjAHQAcwBQAGEAbgBlAQAAACwAAAEhAAAAYwD////7AAAAGgBmAGEAdgBvAHIAaQB0AGUAcwBQAGEAbgBlAQAAAU4AAAEiAAAAYwD////7AAAAFgBoAGkAcwB0AG8AcgB5AFAAYQBuAGUBAAACcQAAASEAAABjAP///wAAAZYAAANmAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAUAG4AYQB2AFQAbwBvAGwAYgBhAHIBAAAAAP////8AAAAAAAAAAAAAABoAZABpAGMAdABpAG8AbgBhAHIAeQBCAGEAcgEAAAHF/////wAAAAAAAAAA</mainWindowState>
+ <mainWindowGeometry>AdnQywADAAAAAAAAAAAAKAAAAvAAAAPVAAAAAAAAAEQAAALwAAAD1QAAAAAAAAAABegAAAAAAAAARAAAAvAAAAPV</mainWindowGeometry>
+ <helpWindowGeometry></helpWindowGeometry>
+ <helpSplitterState></helpSplitterState>
+ <dictInfoGeometry></dictInfoGeometry>
+ <inspectorGeometry></inspectorGeometry>
+ <dictionariesDialogGeometry>AdnQywADAAAAAAFsAAAAgQAABQgAAAN+AAABbAAAAJ0AAAUIAAADfgAAAAAAAAAABegAAAFsAAAAnQAABQgAAAN+</dictionariesDialogGeometry>
+ <printPreviewDialogGeometry></printPreviewDialogGeometry>
+ <timeForNewReleaseCheck>2025-02-02T00:09:02</timeForNewReleaseCheck>
+ <skippedRelease></skippedRelease>
+ <showingDictBarNames>0</showingDictBarNames>
+ <usingSmallIconsInToolbars>0</usingSmallIconsInToolbars>
+ <editDictionaryCommandLine></editDictionaryCommandLine>
+ <maxPictureWidth>0</maxPictureWidth>
+ <maxHeadwordSize>256</maxHeadwordSize>
+ <maxHeadwordsToExpand>0</maxHeadwordsToExpand>
+ <headwordsDialog>
+  <searchMode>0</searchMode>
+  <matchCase>0</matchCase>
+  <autoApply>0</autoApply>
+  <headwordsExportPath></headwordsExportPath>
+  <headwordsDialogGeometry></headwordsDialogGeometry>
+ </headwordsDialog>
+</config>
