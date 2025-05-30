@@ -11,6 +11,10 @@ if [ -f ~/.config/shell/countdown ]; then
     source ~/.config/shell/countdown
 fi
 
+if [ -f ~/.config/shell/quitcd.bash_sh_zsh ]; then
+    source ~/.config/shell/quitcd.bash_sh_zsh
+fi
+
 HIST_STAMPS="yyyy/mm/dd"
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -33,10 +37,10 @@ export EDITOR="$VISUAL"
 export BROWSER="firefox"
 
 # set proxy
-set proxy
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-export all_proxy=socks5://127.0.0.1:7891
+# set proxy
+# export http_proxy=http://127.0.0.1:7890
+# export https_proxy=http://127.0.0.1:7890
+# export all_proxy=socks5://127.0.0.1:7891
 
 export PATH=$PATH:~/.spicetify
 export PATH=$PATH:~/.local/bin
@@ -97,11 +101,6 @@ bindkey -s "^[l" "ls\n"
 
 eval "$(starship init zsh)"
 
-# nnn
-if [ -f /usr/share/nnn/quitcd/quitcd.bash_zsh ]; then
-    source /usr/share/nnn/quitcd/quitcd.bash_zsh
-fi
-
 export NNN_FIFO=/tmp/nnn.fifo
 export NNN_FCOLORS="AAAAE631BBBBCCCCDDDD9999"
 export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview;j:autojump;'
@@ -113,12 +112,5 @@ export NNN_OPTS="deH"
 #     tmux attach -t default || tmux new -s default
 # fi
 
-# I'll have lua_path here bcz all I'm using lua is neovim conf :p
-# export LUA_PATH="$HOME/.config/lua/5.1/?.lua"
-# export RUSTUP_HOME="/var/cache/rustup"
-# export CARGO_HOME="/var/cache/rustup"
-# echo "Cleanse Thy Earthly Vessel"
-# echo "Prove my that essay is the best way to get authentic and bleeding-edge technology or knowledge"
-# echo "チョコパンわしの大好物"
 
 PATH="$HOME/.config/shell/bin:$PATH"
