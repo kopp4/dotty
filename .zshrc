@@ -19,7 +19,7 @@ HIST_STAMPS="yyyy/mm/dd"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:/opt/nvim-linux-x86_64/bin:$PATH
 # export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
 # Path to your oh-my-zsh installation.
 # export FZF_DEFAULT_COMMAND='rg --files --hidden --no-ignore-vcs -g "!{node_modules,.git,.idea,target,dist,out-tsc}"'
