@@ -1,8 +1,3 @@
-# source ~/.local/share/zsh-snap/znap.zsh
-# source ~/.local/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-# znap source zsh-users/zsh-autosuggestions
-# source ~/.local/share/-users/zsh-syntax-highlighting
-
 if [ -f ~/.config/shell/.aliases ]; then
     source ~/.config/shell/.aliases
 fi
@@ -15,14 +10,13 @@ if [ -f ~/.config/shell/quitcd.bash_sh_zsh ]; then
     source ~/.config/shell/quitcd.bash_sh_zsh
 fi
 
+# if [ -f ~/.config/shell/proxy ]; then
+#     source ~/.config/shell/proxy
+# fi
+
 HIST_STAMPS="yyyy/mm/dd"
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# For a full list of active aliases, run `alias`.
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -35,12 +29,6 @@ export LC_ALL=en_US.UTF-8
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 export BROWSER="firefox"
-
-# set proxy
-# set proxy
-# export http_proxy=http://127.0.0.1:7890
-# export https_proxy=http://127.0.0.1:7890
-# export all_proxy=socks5://127.0.0.1:7891
 
 export PATH=$PATH:~/.spicetify
 export PATH=$PATH:~/.local/bin
@@ -56,11 +44,7 @@ export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quo
 autoload -U compinit && compinit -u
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-# source ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-# Its pokemon why the hell not?
-pokemon-colorscripts -r
-# calendar
-khal calendar
+
 # TTY
 if [ $(tput colors) != "256" ]; then
     exec bash -l
@@ -83,18 +67,7 @@ setopt SHARE_HISTORY
 setopt HIST_BEEP
 
 setopt auto_cd
-# https://stackoverflow.com/questions/26616003/shopt-command-not-found-in-bashrc-after-shell-updation
-# shopt -s histappend
-# shopt -s checkwinsize
 
-# The next line updates PATH for the Google Cloud SDK.
-# if [ -f '/home/koppa/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/home/koppa/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-# if [ -f '/home/koppa/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/koppa/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
-# bindkey -s '\e\e' '\C-asudo \C-e'
-bindkey -s '\e\e' '^[Isudo ^[A'
 bindkey -s '^f' 'fzf --print0 | xargs -0 -o xdg-open \n'
 # 'xdg-open "$(fzf)" \n'
 bindkey -s "^[l" "ls\n"
@@ -108,9 +81,7 @@ export NNN_OPTS="deH"
 # export NNN_OPTS="H"
 
 # Tmux on startup
-# if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
-#     tmux attach -t default || tmux new -s default
-# fi
+if command -v tmux &>/dev/null && [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
 
-
-PATH="$HOME/.config/shell/bin:$PATH"
