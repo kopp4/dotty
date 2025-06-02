@@ -5,7 +5,7 @@ require 'lspconfig'.pyright.setup{}
 -- require 'lspconfig'.jdtls.setup{}
 -- require 'lspconfig'.rust_analyzer.setup{}
 -- require 'lspconfig'.jdtls.setup{ cmd = { 'jdtls' } }
-require 'lspconfig'.custom_elements_ls.setup{}
+-- require 'lspconfig'.custom_elements_ls.setup{}
 
 
 require 'rcfiles.plugins'

@@ -2,7 +2,7 @@
 
 # opens iTerm2
 # alt - return : "${HOME}"/.config/yabai/scripts/open_iterm2.sh
-alt - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
+# alt - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
 cmd - return : /Applications/Kitty.app/Contents/MacOS/kitty --single-instance -d ~
 alt - e : open -a /Applications/Finder.app
 
@@ -122,7 +122,7 @@ shift + alt - f : yabai -m window --toggle native-fullscreen
 alt - s         : yabai -m window --toggle float
 cmd - s         : yabai -m window --toggle float
 alt - t         : yabai -m window --toggle sticky
-cmd - t         : yabai -m window --toggle sticky
+# cmd - t         : yabai -m window --toggle sticky
 
 
 ctrl + alt - r : yabai --restart-service

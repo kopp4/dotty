@@ -14,9 +14,9 @@ export TERM=xterm-256color
 export GRAALVM_HOME=$HOME/Tools/graalvm/graalvm-ce-java17-21.3.0
 
 # This might be **critical** for out of terminal proxy
-set proxy
-export http_proxy=http://127.0.0.1:7890 
-export https_proxy=http://127.0.0.1:7890 
+# set proxy
+# export http_proxy=http://127.0.0.1:7890 
+# export https_proxy=http://127.0.0.1:7890 
 
 # export ZSH=$HOME/.oh-my-zsh
 # source $ZSH/oh-my-zsh.sh

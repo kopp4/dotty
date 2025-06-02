@@ -33,10 +33,10 @@ export EDITOR="$VISUAL"
 export BROWSER="firefox"
 
 # set proxy
-set proxy
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-export all_proxy=socks5://127.0.0.1:7891
+# set proxy
+# export http_proxy=http://127.0.0.1:7890
+# export https_proxy=http://127.0.0.1:7890
+# export all_proxy=socks5://127.0.0.1:7891
 
 export PATH=$PATH:~/.spicetify
 export PATH=$PATH:~/.local/bin
@@ -91,7 +91,7 @@ setopt auto_cd
 # if [ -f '/home/koppa/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/koppa/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
 
 # bindkey -s '\e\e' '\C-asudo \C-e'
-bindkey -s '\e\e' '^[Isudo ^[A'
+# bindkey -s '\e\e' '^[Isudo ^[A'
 bindkey -s '^f' 'fzf --print0 | xargs -0 -o xdg-open \n'
 # 'xdg-open "$(fzf)" \n'
 bindkey -s "¬" "ls\n"
@@ -150,3 +150,4 @@ export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview;j:au
 # echo "チョコパンわしの大好物"
 
 PATH="$HOME/.config/shell/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
