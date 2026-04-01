@@ -1,4 +1,5 @@
 brew "autojump"
+brew "starship"
 brew "fzf"
 brew "lazygit"
 brew "neovim"
