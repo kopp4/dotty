@@ -9,12 +9,23 @@ sudo chmod a+wr /opt/spotify/Apps -R
 
 * Installation 
 ```shell
-git clone --depth 1 --recurse-submodules "https://github.com/kopp4/dotty.git" ~/dotty
-cp -rfT ~/dotty ~/
+# Homebrew install
+echo "Installing Brew..."
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew analytics off
+
+## Taps
+echo "Tapping Brew..."
+brew tap FelixKratz/formulae
+brew tap koekeishiya/formulae
+
+git clone --depth 1 --recurse-submodules -b mac "https://github.com/kopp4/dotty.git" ~/dotty
+cp -rf ~/dotty/ ~/
 cp -rf ~/.git ~/.dotfiles
 rm -rf -- ~/dotty ~/.git
 source ~/.zshrc
 dot config status.showUntrackedFiles no
+brew bundle --file ~/.config/pkgs/Brewfile
 # spicetify
 git clone --depth=1 https://github.com/spicetify/spicetify-themes.git
 cd spicetify-themes
