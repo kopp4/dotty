@@ -63,3 +63,5 @@ recordgif() {
     wf-recorder -g "$(slurp)" -F fps=30 -c gif -f ~/Videos/gif/"$1".gif
 }
 
+
+alias hermes="docker exec -it hermes /opt/hermes/.venv/bin/hermes"

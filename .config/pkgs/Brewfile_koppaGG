@@ -1,0 +1,181 @@
+tap "asmvik/formulae", "https://github.com/asmvik/homebrew-formulae.git"
+tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae"
+tap "homebrew-zathura/zathura", "https://github.com/homebrew-zathura/homebrew-zathura.git"
+tap "homebrew/services"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# C++ linear algebra library
+brew "armadillo"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
+# Shell extension to jump to frequently used directories
+brew "autojump"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
+# Generate compilation database for clang tooling
+brew "bear"
+# Collection of portable C++ source libraries
+brew "boost"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# Play, record, convert, and stream select audio and video codecs
+brew "ffmpeg"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Pack, ship and run any application as a lightweight container
+brew "docker", link: false
+# TUI todo manager
+brew "dooit"
+# XML 1.0 parser
+brew "expat"
+# Zip password cracker
+brew "fcrackzip"
+# Cross-platform library for audio I/O
+brew "portaudio"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Numerical library for C and C++
+brew "gsl"
+# File format designed to store large amounts of data
+brew "hdf5"
+# Post-modern modal text editor
+brew "helix"
+# Tool to report network interface bandwidth
+brew "ifstat"
+# CLI wrapper for basic network utilities on macOS - ip command
+brew "iproute2mac"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Portable sound library
+brew "libmikmod"
+# Next-gen compiler infrastructure
+brew "llvm"
+# Powerful, lightweight programming language
+brew "lua"
+# Command-line music player client for mpd
+brew "mpc"
+# Music Player Daemon
+brew "mpd", restart_service: :changed
+# NCurses Disk Usage
+brew "ncdu"
+# Ncurses-based client for the Music Player Daemon
+brew "ncmpcpp"
+# Incremental parsing library
+brew "tree-sitter"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Retrieves currently playing media, and simulates media actions
+brew "nowplaying-cli"
+# Package for scientific computing with Python
+brew "numpy"
+# Development kit for the Java programming language
+brew "openjdk"
+# Development kit for the Java programming language
+brew "openjdk@17"
+# Python Language Server for the Language Server Protocol
+brew "python-lsp-server"
+# Python interface to Tcl/Tk
+brew "python-tk@3.13"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Display and control your Android device
+brew "scrcpy"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Command-line tool to customize Spotify client
+brew "spicetify-cli", link: false
+# Cross-shell prompt for astronauts
+brew "starship"
+# Change macOS audio source from the command-line
+brew "switchaudio-osx"
+# Open source continuous file synchronization application
+brew "syncthing", restart_service: :changed
+# Implementation of the Language Server Protocol for LaTeX
+brew "texlab"
+# Simplified and community-driven man pages
+brew "tldr"
+# Terminal multiplexer
+brew "tmux"
+# Plugin manager for tmux
+brew "tpm"
+# Parser generator tool
+brew "tree-sitter-cli"
+# Internet file retriever
+brew "wget"
+# Userspace Go implementation of WireGuard
+brew "wireguard-go"
+# Feature-rich command-line audio/video downloader
+brew "yt-dlp"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Feature-rich syntax highlighting for Zsh
+brew "zsh-fast-syntax-highlighting"
+# Better and friendly vi(vim) mode plugin for ZSH
+brew "zsh-vi-mode"
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar", trusted: true
+# Application launcher and productivity software
+cask "alfred"
+# Android SDK component
+cask "android-platform-tools"
+# Memory training application
+cask "anki"
+# Two-panel file manager
+cask "commander-one"
+# Voice and text chat software
+cask "discord"
+# Web browser
+cask "firefox"
+cask "font-fira-code"
+cask "font-hack-nerd-font"
+cask "font-jetbrains-mono"
+cask "font-sf-mono"
+cask "font-sf-mono-nerd-font-ligaturized"
+cask "font-sf-pro"
+# Web browser
+cask "google-chrome"
+# Free and open-source media player
+cask "iina"
+# File archiver
+cask "keka"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
+# Android file transfer
+cask "openmtp"
+# Replacement for Docker Desktop
+cask "orbstack"
+# WebKit based web browser
+cask "orion"
+# Rhythm game
+cask "osu"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
+# Minecraft launcher
+cask "prismlauncher"
+# Archive manager for data compression and backups
+cask "rar"
+# Open source virtual/remote desktop application
+cask "rustdesk"
+# Tool that provides consistent, highly configurable symbols for apps
+cask "sf-symbols"
+# PDF reader and note-taking application
+cask "skim"
+# Music streaming service
+cask "spotify"
+# Open-source BitTorrent client
+cask "transmission"
+# Multitrack guitar tablature editor and player
+cask "tuxguitar"
+# Collect, organise, cite, and share research sources
+cask "zotero"
+npm "pyright"

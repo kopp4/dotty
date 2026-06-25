@@ -7,6 +7,10 @@ if [ -f ~/.config/shell/.aliases ]; then
     source ~/.config/shell/.aliases
 fi
 
+if [ -f ~/.config/shell/.secret ]; then
+    source ~/.config/shell/.secret
+fi
+
 if [ -f ~/.config/shell/countdown ]; then
     source ~/.config/shell/countdown
 fi
@@ -28,7 +32,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export VISUAL=nvim
+# export VISUAL=nvim
+export VISUAL="nvim"
 export EDITOR="$VISUAL"
 export BROWSER="firefox"
 
@@ -92,7 +97,7 @@ setopt auto_cd
 
 # bindkey -s '\e\e' '\C-asudo \C-e'
 # bindkey -s '\e\e' '^[Isudo ^[A'
-bindkey -s '^f' 'fzf --print0 | xargs -0 -o xdg-open \n'
+bindkey -s '^f' 'fzf --print0 | xargs -0 -o nvim \n'
 # 'xdg-open "$(fzf)" \n'
 bindkey -s "¬" "ls\n"
 
@@ -151,3 +156,5 @@ export NNN_PLUG='f:finder;o:fzopen;p:preview-tui;d:diffs;t:nmount;v:imgview;j:au
 
 PATH="$HOME/.config/shell/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+export PATH=$PATH:/Users/koppa/.spicetify
